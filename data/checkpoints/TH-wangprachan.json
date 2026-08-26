@@ -1,0 +1,17 @@
+{
+  "slug": "wangprachan",
+  "country": "TH",
+  "coords": [
+    6.69677,
+    100.1783019
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Wang%20Prachan%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "วังประจัน"
+    ],
+    "ja": "ワンプラチャン",
+    "en": "Wang Prachan"
+  }
+}

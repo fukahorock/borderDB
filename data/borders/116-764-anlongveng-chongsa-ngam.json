@@ -1,0 +1,40 @@
+{
+  "id": "116-764-anlongveng-chongsa-ngam",
+  "countries": [
+    "KH",
+    "TH"
+  ],
+  "transport_style": {
+    "KH": null,
+    "TH": "no_public_transport"
+  },
+  "status": "closed",
+  "status_updated": "",
+  "checkpoints": {
+    "KH": "anlongveng",
+    "TH": "chongsa-ngam"
+  },
+  "difficulty": {
+    "KH": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "KH→TH推奨。TH側は公共交通ほぼなし。7:00開門。eVisa非対応",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

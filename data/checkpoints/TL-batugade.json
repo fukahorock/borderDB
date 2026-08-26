@@ -1,0 +1,17 @@
+{
+  "slug": "batugade",
+  "country": "TL",
+  "coords": [
+    -8.957633,
+    124.9527146
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Batugade%20Timor-Leste%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Batugadé"
+    ],
+    "ja": "バトゥガデ",
+    "en": "Batugade"
+  }
+}

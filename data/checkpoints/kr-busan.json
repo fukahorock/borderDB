@@ -1,0 +1,19 @@
+{
+  "slug": "busan",
+  "country": "KR",
+  "coords": null,
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Busan%20Port%20KR",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [],
+    "ja": "釜山港",
+    "en": "Busan Port"
+  },
+  "_source": "国境管理_-_シート3.csv（港メモ行）",
+  "_memo": "博多、下関、大阪、対馬（比田勝・厳原）（日本）行き。IN限定",
+  "_needs_review": [
+    "coords",
+    "visa_on_arrival",
+    "name.local"
+  ]
+}

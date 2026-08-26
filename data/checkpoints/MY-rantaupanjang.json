@@ -1,0 +1,17 @@
+{
+  "slug": "rantaupanjang",
+  "country": "MY",
+  "coords": [
+    6.0208485,
+    101.9766691
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Rantau%20Panjang%20Malaysia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Rantau Panjang"
+    ],
+    "ja": "ランタウパンジャン",
+    "en": "Rantau Panjang"
+  }
+}

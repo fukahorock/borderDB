@@ -1,0 +1,40 @@
+{
+  "id": "418-764-vangtao-chongmek",
+  "countries": [
+    "LA",
+    "TH"
+  ],
+  "transport_style": {
+    "LA": null,
+    "TH": null
+  },
+  "status": "open",
+  "status_updated": "2026-02",
+  "checkpoints": {
+    "LA": "vangtao",
+    "TH": "chongmek"
+  },
+  "difficulty": {
+    "LA": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "",
+        "TH": "ウボンラチャタニからバスもあるが、チョンメックまで行くほうが早い"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

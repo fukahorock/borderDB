@@ -1,0 +1,40 @@
+{
+  "id": "418-704-taytrang-sophun",
+  "countries": [
+    "LA",
+    "VN"
+  ],
+  "transport_style": {
+    "LA": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "LA": "taytrang",
+    "VN": "sophun"
+  },
+  "difficulty": {
+    "LA": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "",
+        "VN": "VN→LA推奨。ディエンビエンフーから確実。週3便朝7時発、予約不可"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

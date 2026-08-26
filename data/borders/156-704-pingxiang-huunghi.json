@@ -1,0 +1,40 @@
+{
+  "id": "156-704-pingxiang-huunghi",
+  "countries": [
+    "CN",
+    "VN"
+  ],
+  "transport_style": {
+    "CN": "through",
+    "VN": "through"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "CN": "pingxiang",
+    "VN": "huunghi"
+  },
+  "difficulty": {
+    "CN": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "どちらでもOK。最大規模の中越国境。友誼関(道路)。国際バスあり",
+        "VN": "どちらでもOK。最大規模の中越国境。友誼関(道路)。国際バスあり。VN7:00-17:00/CN8:00-18:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

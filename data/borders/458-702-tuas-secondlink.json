@@ -1,0 +1,40 @@
+{
+  "id": "458-702-tuas-secondlink",
+  "countries": [
+    "MY",
+    "SG"
+  ],
+  "transport_style": {
+    "MY": null,
+    "SG": null
+  },
+  "status": "open",
+  "status_updated": "2018-03",
+  "checkpoints": {
+    "MY": "tuas",
+    "SG": "secondlink"
+  },
+  "difficulty": {
+    "MY": null,
+    "SG": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MY": "",
+        "SG": "クアラルンプールからバス"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MY": "",
+        "SG": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

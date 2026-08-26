@@ -1,0 +1,17 @@
+{
+  "slug": "thanhthuy",
+  "country": "VN",
+  "coords": [
+    22.9358477,
+    104.8502058
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Thanh%20Thuy%20Vietnam%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Thanh Thủy"
+    ],
+    "ja": "タイントゥイ",
+    "en": "Thanh Thuy"
+  }
+}

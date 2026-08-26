@@ -1,0 +1,18 @@
+{
+  "slug": "miri",
+  "country": "MY",
+  "coords": [
+    4.5834169,
+    114.07484699999999
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Miri%20Malaysia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Miri",
+      "Kuala Baram"
+    ],
+    "ja": "ミリ(クアラバラム)",
+    "en": "Miri"
+  }
+}

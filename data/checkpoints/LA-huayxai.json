@@ -1,0 +1,17 @@
+{
+  "slug": "huayxai",
+  "country": "LA",
+  "coords": [
+    20.2168034,
+    100.46176919999999
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Huay%20Xai%20Laos%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ຫ້ວຍຊາຍ"
+    ],
+    "ja": "フアイサーイ",
+    "en": "Huay Xai"
+  }
+}

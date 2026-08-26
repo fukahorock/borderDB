@@ -1,0 +1,40 @@
+{
+  "id": "104-764-kawthaung-ranong",
+  "countries": [
+    "MM",
+    "TH"
+  ],
+  "transport_style": {
+    "MM": null,
+    "TH": null
+  },
+  "status": "open",
+  "status_updated": "",
+  "checkpoints": {
+    "MM": "kawthaung",
+    "TH": "ranong"
+  },
+  "difficulty": {
+    "MM": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MM": "",
+        "TH": "ミャンマー-タイ間で唯一開いている国境。ボートで25-30分100バーツ。ラノーンから日帰りになりそう。eVisa有効。7:00-17:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MM": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

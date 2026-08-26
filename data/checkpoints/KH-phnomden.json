@@ -1,0 +1,17 @@
+{
+  "slug": "phnomden",
+  "country": "KH",
+  "coords": [
+    10.6026984,
+    104.9290111
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Phnom%20Den%20Cambodia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ភ្នំដិន"
+    ],
+    "ja": "プノムデン",
+    "en": "Phnom Den"
+  }
+}

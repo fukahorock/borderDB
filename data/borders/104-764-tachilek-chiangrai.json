@@ -1,0 +1,40 @@
+{
+  "id": "104-764-tachilek-chiangrai",
+  "countries": [
+    "MM",
+    "TH"
+  ],
+  "transport_style": {
+    "MM": null,
+    "TH": null
+  },
+  "status": "closed",
+  "status_updated": "",
+  "checkpoints": {
+    "MM": "tachilek",
+    "TH": "maesai"
+  },
+  "difficulty": {
+    "MM": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MM": "",
+        "TH": "TH→MM。メーサイから徒歩越境。タチレクまで"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MM": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

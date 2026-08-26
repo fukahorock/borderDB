@@ -1,0 +1,17 @@
+{
+  "slug": "causeway-johorbahru",
+  "country": "MY",
+  "coords": [
+    1.4651257,
+    103.76674349999999
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Johor%20Bahru%20%28Causeway%29%20Malaysia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Tambak Johor"
+    ],
+    "ja": "ジョホールバル(コーズウェイ)",
+    "en": "Johor Bahru"
+  }
+}

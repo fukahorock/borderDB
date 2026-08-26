@@ -1,0 +1,40 @@
+{
+  "id": "392-410-izuhara-busan",
+  "countries": [
+    "JP",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "busan",
+    "JP": "izuhara"
+  },
+  "transport_style": {
+    "KR": null,
+    "JP": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": null,
+    "JP": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "対馬南部、約2時間",
+        "JP": "対馬南部、約2時間"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "JP": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

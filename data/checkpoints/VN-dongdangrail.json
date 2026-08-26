@@ -1,0 +1,14 @@
+{
+  "slug": "dongdangrail",
+  "country": "VN",
+  "coords": null,
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Dong%20Dang%20%28rail%29%20Vietnam%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Ga Đồng Đăng"
+    ],
+    "ja": "ドンダン駅",
+    "en": "Dong Dang (rail)"
+  }
+}

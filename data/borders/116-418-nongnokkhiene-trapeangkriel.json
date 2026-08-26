@@ -1,0 +1,40 @@
+{
+  "id": "116-418-nongnokkhiene-trapeangkriel",
+  "countries": [
+    "KH",
+    "LA"
+  ],
+  "transport_style": {
+    "KH": null,
+    "LA": null
+  },
+  "status": "open",
+  "status_updated": "2025-08",
+  "checkpoints": {
+    "KH": "nongnokkhiene",
+    "LA": "trapeangkriel"
+  },
+  "difficulty": {
+    "KH": null,
+    "LA": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "コンポンチャムからパクセまでバス",
+        "LA": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "LA": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

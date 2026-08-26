@@ -1,0 +1,40 @@
+{
+  "id": "418-764-paksan-buengkan",
+  "countries": [
+    "LA",
+    "TH"
+  ],
+  "transport_style": {
+    "LA": null,
+    "TH": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "LA": "paksan",
+    "TH": "buengkan"
+  },
+  "difficulty": {
+    "LA": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "",
+        "TH": "LA→TH。渡し船、午前中がボート捕まえやすい"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

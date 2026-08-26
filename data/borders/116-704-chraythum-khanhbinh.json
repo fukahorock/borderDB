@@ -1,0 +1,40 @@
+{
+  "id": "116-704-chraythum-khanhbinh",
+  "countries": [
+    "KH",
+    "VN"
+  ],
+  "transport_style": {
+    "KH": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "KH": "chraythum",
+    "VN": "khanhbinh"
+  },
+  "difficulty": {
+    "KH": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "",
+        "VN": "VN→KH推奨。ローカル色強い"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

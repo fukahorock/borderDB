@@ -1,0 +1,17 @@
+{
+  "slug": "nongkhai",
+  "country": "TH",
+  "coords": [
+    17.8672739,
+    102.720216
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Nong%20Khai%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "หนองคาย"
+    ],
+    "ja": "ノンカイ",
+    "en": "Nong Khai"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "tebedu",
+  "country": "MY",
+  "coords": [
+    0.9882837,
+    110.3532199
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Tebedu%20Malaysia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Tebedu"
+    ],
+    "ja": "テベドゥ",
+    "en": "Tebedu"
+  }
+}

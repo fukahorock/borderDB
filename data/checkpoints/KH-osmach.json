@@ -1,0 +1,17 @@
+{
+  "slug": "osmach",
+  "country": "KH",
+  "coords": [
+    14.4153287,
+    103.6929907
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=O%20Smach%20Cambodia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "អូរស្មាច់"
+    ],
+    "ja": "オースマイ",
+    "en": "O Smach"
+  }
+}

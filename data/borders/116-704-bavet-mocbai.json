@@ -1,0 +1,40 @@
+{
+  "id": "116-704-bavet-mocbai",
+  "countries": [
+    "KH",
+    "VN"
+  ],
+  "transport_style": {
+    "KH": "through",
+    "VN": "through"
+  },
+  "status": "open",
+  "status_updated": "",
+  "checkpoints": {
+    "KH": "bavet",
+    "VN": "mocbai"
+  },
+  "difficulty": {
+    "KH": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "メジャー。どちらでもOK",
+        "VN": "メジャー。ホーチミンから路線バス703番or直通バス。どちらでもOK"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

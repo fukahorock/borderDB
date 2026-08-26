@@ -1,0 +1,17 @@
+{
+  "slug": "entikong",
+  "country": "ID",
+  "coords": [
+    0.9858345,
+    110.35201760000001
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Entikong%20Indonesia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Entikong (PLBN Entikong)"
+    ],
+    "ja": "エンティコン",
+    "en": "Entikong"
+  }
+}

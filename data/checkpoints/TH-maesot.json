@@ -1,0 +1,17 @@
+{
+  "slug": "maesot",
+  "country": "TH",
+  "coords": [
+    16.725319,
+    98.49553999999999
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Mae%20Sot%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "แม่สอด"
+    ],
+    "ja": "メーソート",
+    "en": "Mae Sot"
+  }
+}

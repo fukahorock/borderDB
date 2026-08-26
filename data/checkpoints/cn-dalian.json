@@ -1,0 +1,19 @@
+{
+  "slug": "dalian",
+  "country": "CN",
+  "coords": null,
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Dalian%20Port%20CN",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [],
+    "ja": "大連港",
+    "en": "Dalian Port"
+  },
+  "_source": "国境管理_-_シート3.csv（港メモ行）",
+  "_memo": "仁川（韓国）行き。Dain Ferry等、約14.5時間、週3便",
+  "_needs_review": [
+    "coords",
+    "visa_on_arrival",
+    "name.local"
+  ]
+}

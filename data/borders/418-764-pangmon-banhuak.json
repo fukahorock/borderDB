@@ -1,0 +1,40 @@
+{
+  "id": "418-764-pangmon-banhuak",
+  "countries": [
+    "LA",
+    "TH"
+  ],
+  "transport_style": {
+    "LA": null,
+    "TH": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "LA": "pangmon",
+    "TH": "banhuak"
+  },
+  "difficulty": {
+    "LA": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "",
+        "TH": "TH→LA。パヤオ県プーサン郡。Googleレビューで2026年2月に日本人通過実績あり"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

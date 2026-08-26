@@ -1,0 +1,40 @@
+{
+  "id": "116-704-dinhba-dinhba",
+  "countries": [
+    "KH",
+    "VN"
+  ],
+  "transport_style": {
+    "KH": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "KH": "dinhba",
+    "VN": "dinhba"
+  },
+  "difficulty": {
+    "KH": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "",
+        "VN": "VN→KH推奨。VN入国方向で怒られる報告あり"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

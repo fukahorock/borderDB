@@ -1,0 +1,40 @@
+{
+  "id": "360-458-entikong-tebedu",
+  "countries": [
+    "ID",
+    "MY"
+  ],
+  "transport_style": {
+    "ID": "through",
+    "MY": "through"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "ID": "entikong",
+    "MY": "tebedu"
+  },
+  "difficulty": {
+    "ID": null,
+    "MY": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "ID": "外国人OK。唯一のVOA対応。ポンティアナック-クチン幹線。国際バスあり",
+        "MY": "外国人OK。唯一のVOA対応。ポンティアナック-クチン幹線。国際バスあり"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "ID": "",
+        "MY": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

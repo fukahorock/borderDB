@@ -1,0 +1,40 @@
+{
+  "id": "418-764-thanalaeng-nongkhai",
+  "countries": [
+    "LA",
+    "TH"
+  ],
+  "transport_style": {
+    "LA": "through",
+    "TH": "through"
+  },
+  "status": "open",
+  "status_updated": "2025-08",
+  "checkpoints": {
+    "LA": "thanalaeng",
+    "TH": "nongkhai"
+  },
+  "difficulty": {
+    "LA": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "カムサワート駅からバンコク行きの鉄道",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

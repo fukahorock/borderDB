@@ -1,0 +1,15 @@
+{
+  "slug": "limbang",
+  "country": "MY",
+  "coords": null,
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Limbang%20Malaysia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Limbang",
+      "Sungai Pandaruan"
+    ],
+    "ja": "リンバン(パンダルアン検問所)",
+    "en": "Limbang"
+  }
+}

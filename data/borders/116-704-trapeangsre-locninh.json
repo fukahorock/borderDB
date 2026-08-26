@@ -1,0 +1,40 @@
+{
+  "id": "116-704-trapeangsre-locninh",
+  "countries": [
+    "KH",
+    "VN"
+  ],
+  "transport_style": {
+    "KH": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "KH": "trapeangsre",
+    "VN": "locninh"
+  },
+  "difficulty": {
+    "KH": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "VN→KH推奨。バンルン→スヌール経由。スヌールからバイタク$5",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

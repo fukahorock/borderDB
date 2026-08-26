@@ -1,0 +1,40 @@
+{
+  "id": "418-764-phudu-phoudou",
+  "countries": [
+    "LA",
+    "TH"
+  ],
+  "transport_style": {
+    "LA": null,
+    "TH": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "LA": "phoudou",
+    "TH": "phudoo"
+  },
+  "difficulty": {
+    "LA": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "LA→TH。ウッタラディットから鉄道でバンコクへ",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

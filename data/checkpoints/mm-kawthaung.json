@@ -1,0 +1,17 @@
+{
+  "slug": "kawthaung",
+  "country": "MM",
+  "coords": [
+    9.9778501,
+    98.5531555
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Kawthaung%20Myanmar%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ကော့သောင်း"
+    ],
+    "ja": "コータウン",
+    "en": "Kawthaung"
+  }
+}

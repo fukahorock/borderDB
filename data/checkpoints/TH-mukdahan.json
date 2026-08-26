@@ -1,0 +1,17 @@
+{
+  "slug": "mukdahan",
+  "country": "TH",
+  "coords": [
+    16.6017987,
+    104.7262707
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Mukdahan%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "มุกดาหาร"
+    ],
+    "ja": "ムクダーハーン",
+    "en": "Mukdahan"
+  }
+}

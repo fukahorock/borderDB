@@ -1,0 +1,40 @@
+{
+  "id": "458-764-buketa-bukitbunga",
+  "countries": [
+    "MY",
+    "TH"
+  ],
+  "transport_style": {
+    "MY": null,
+    "TH": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "MY": "buketa",
+    "TH": "bukitbunga"
+  },
+  "difficulty": {
+    "MY": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MY": "",
+        "TH": "MY→TH推奨。深南部。6:00-19:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MY": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

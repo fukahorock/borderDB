@@ -1,0 +1,40 @@
+{
+  "id": "116-764-osmach-chongchom",
+  "countries": [
+    "KH",
+    "TH"
+  ],
+  "transport_style": {
+    "KH": null,
+    "TH": null
+  },
+  "status": "closed",
+  "status_updated": "",
+  "checkpoints": {
+    "KH": "osmach",
+    "TH": "chongchom"
+  },
+  "difficulty": {
+    "KH": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "",
+        "TH": "TH→KH。スリンから。シェムリアップへの裏ルート。eVisa非対応"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

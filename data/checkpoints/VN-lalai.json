@@ -1,0 +1,17 @@
+{
+  "slug": "lalai",
+  "country": "VN",
+  "coords": [
+    16.3148959,
+    106.9684166
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Lalai%20Vietnam%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "La Lay"
+    ],
+    "ja": "ラライ",
+    "en": "Lalai"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "xamat",
+  "country": "KH",
+  "coords": [
+    11.667684,
+    105.9813315
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Trapeang%20Phlong%20Cambodia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ត្រពាំងផ្លុង"
+    ],
+    "ja": "トラペアンフロン",
+    "en": "Trapeang Phlong"
+  }
+}

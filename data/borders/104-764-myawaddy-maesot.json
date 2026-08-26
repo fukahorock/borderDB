@@ -1,0 +1,40 @@
+{
+  "id": "104-764-myawaddy-maesot",
+  "countries": [
+    "MM",
+    "TH"
+  ],
+  "transport_style": {
+    "MM": "no_public_transport",
+    "TH": "no_public_transport"
+  },
+  "status": "closed",
+  "status_updated": "",
+  "checkpoints": {
+    "MM": "myawaddy",
+    "TH": "maesot"
+  },
+  "difficulty": {
+    "MM": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MM": "どちらでもOK。最も実用的。友好橋で徒歩越境",
+        "TH": "どちらでもOK。最も実用的。友好橋で徒歩越境"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MM": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "360-458-badau-lubokantu",
+  "countries": [
+    "ID",
+    "MY"
+  ],
+  "transport_style": {
+    "ID": "no_public_transport",
+    "MY": "no_public_transport"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "ID": "badau",
+    "MY": "lubokantu"
+  },
+  "difficulty": {
+    "ID": null,
+    "MY": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "ID": "外国人通過可能だがVOA非対応。奥地で交通不安定。4WD推奨",
+        "MY": "外国人通過可能だがVOA非対応。奥地で交通不安定。4WD推奨"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "ID": "",
+        "MY": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

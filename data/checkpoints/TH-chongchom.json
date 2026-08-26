@@ -1,0 +1,17 @@
+{
+  "slug": "chongchom",
+  "country": "TH",
+  "coords": [
+    14.4348125,
+    103.7000625
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Chong%20Chom%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ช่องจอม"
+    ],
+    "ja": "チョンチョム",
+    "en": "Chong Chom"
+  }
+}

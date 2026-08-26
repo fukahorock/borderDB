@@ -1,0 +1,40 @@
+{
+  "id": "156-410-dalian-incheon",
+  "countries": [
+    "CN",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "incheon",
+    "CN": "dalian"
+  },
+  "transport_style": {
+    "KR": null,
+    "CN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": null,
+    "CN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "Dain Ferry等、約14.5時間、週3便",
+        "CN": "Dain Ferry等、約14.5時間、週3便"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "CN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

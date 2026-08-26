@@ -1,0 +1,40 @@
+{
+  "id": "156-704-tianbao-thanhthuy",
+  "countries": [
+    "CN",
+    "VN"
+  ],
+  "transport_style": {
+    "CN": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "CN": "tianbao",
+    "VN": "thanhthuy"
+  },
+  "difficulty": {
+    "CN": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "",
+        "VN": "VN→CN推奨。ハザンループ後に中国へ"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

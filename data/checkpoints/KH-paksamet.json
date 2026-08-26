@@ -1,0 +1,17 @@
+{
+  "slug": "paksamet",
+  "country": "KH",
+  "coords": [
+    12.927748999999999,
+    102.49540999999999
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Pailin%20Cambodia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ប៉ៃលិន"
+    ],
+    "ja": "パイリン",
+    "en": "Pailin"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "392-410-hakata-busan",
+  "countries": [
+    "JP",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "busan",
+    "JP": "hakata"
+  },
+  "transport_style": {
+    "KR": null,
+    "JP": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": 2,
+    "JP": 2
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "JR九州高速船ビートル等、約3時間",
+        "JP": "JR九州高速船ビートル等、約3時間"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "JP": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

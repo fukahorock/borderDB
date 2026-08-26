@@ -1,0 +1,40 @@
+{
+  "id": "458-702-causeway/johorbahru-woodlands",
+  "countries": [
+    "MY",
+    "SG"
+  ],
+  "transport_style": {
+    "MY": "through",
+    "SG": "through"
+  },
+  "status": "open",
+  "status_updated": "",
+  "checkpoints": {
+    "MY": "causeway-johorbahru",
+    "SG": "woodlands"
+  },
+  "difficulty": {
+    "MY": null,
+    "SG": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MY": "どちらでもOK。世界最多往来の国境。MRTウッドランズ駅/JBセントラル直結",
+        "SG": "どちらでもOK。世界最多往来の国境。MRTウッドランズ駅/JBセントラル直結"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MY": "",
+        "SG": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

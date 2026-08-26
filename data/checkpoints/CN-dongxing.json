@@ -1,0 +1,17 @@
+{
+  "slug": "dongxing",
+  "country": "CN",
+  "coords": [
+    21.5376334,
+    107.96837239999999
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Dongxing%20China%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "东兴"
+    ],
+    "ja": "東興(トンシン)",
+    "en": "Dongxing"
+  }
+}

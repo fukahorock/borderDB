@@ -1,0 +1,40 @@
+{
+  "id": "392-410-hitakatsu-busan",
+  "countries": [
+    "JP",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "busan",
+    "JP": "hitakatsu"
+  },
+  "transport_style": {
+    "KR": null,
+    "JP": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": null,
+    "JP": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "対馬北部、約1時間15分",
+        "JP": "対馬北部、約1時間15分"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "JP": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

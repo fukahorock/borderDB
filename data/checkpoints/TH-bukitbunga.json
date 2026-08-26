@@ -1,0 +1,17 @@
+{
+  "slug": "bukitbunga",
+  "country": "TH",
+  "coords": [
+    5.841429,
+    101.88791510000001
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Buketa%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "บูเก๊ะตา"
+    ],
+    "ja": "ブケタ",
+    "en": "Buketa"
+  }
+}

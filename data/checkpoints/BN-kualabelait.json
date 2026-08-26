@@ -1,0 +1,15 @@
+{
+  "slug": "kualabelait",
+  "country": "BN",
+  "coords": null,
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Kuala%20Belait%20Brunei%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Kuala Belait",
+      "Sungai Tujoh"
+    ],
+    "ja": "クアラブライト(スンガイトゥジョー)",
+    "en": "Kuala Belait"
+  }
+}

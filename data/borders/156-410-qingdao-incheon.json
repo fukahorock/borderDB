@@ -1,0 +1,40 @@
+{
+  "id": "156-410-qingdao-incheon",
+  "countries": [
+    "CN",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "incheon",
+    "CN": "qingdao"
+  },
+  "transport_style": {
+    "KR": null,
+    "CN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": null,
+    "CN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "約18時間",
+        "CN": "約18時間"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "CN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

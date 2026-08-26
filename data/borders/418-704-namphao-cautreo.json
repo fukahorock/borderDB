@@ -1,0 +1,40 @@
+{
+  "id": "418-704-namphao-cautreo",
+  "countries": [
+    "LA",
+    "VN"
+  ],
+  "transport_style": {
+    "LA": "through",
+    "VN": "through"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "LA": "namphao",
+    "VN": "cautreo"
+  },
+  "difficulty": {
+    "LA": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "どちらでもOK。人気ルート",
+        "VN": "どちらでもOK。人気ルート。ラクサオからVNヴィンへ"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

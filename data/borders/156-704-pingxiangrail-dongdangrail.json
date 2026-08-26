@@ -1,0 +1,40 @@
+{
+  "id": "156-704-pingxiangrail-dongdangrail",
+  "countries": [
+    "CN",
+    "VN"
+  ],
+  "transport_style": {
+    "CN": "through",
+    "VN": "through"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "CN": "pingxiangrail",
+    "VN": "dongdangrail"
+  },
+  "difficulty": {
+    "CN": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "南寧-ハノイ国際列車T8701/MR2。毎日1便夜行。凭祥駅で中国出国、ドンダン駅でベトナム入国。道路の友誼関とは別施設",
+        "VN": "南寧-ハノイ国際列車T8701/MR2。毎日1便夜行。南寧18:05発→ザーラム翌5:30着。凭祥駅で中国出国、ドンダン駅でベトナム入国。道路の友誼関とは別施設"
+      },
+      "trivia": "道路国境の友誼関(Huu Nghi/Pingxiang)とは別施設。国際夜行列車での越境",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

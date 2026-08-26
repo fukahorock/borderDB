@@ -1,0 +1,40 @@
+{
+  "id": "156-704-hekou-laocai",
+  "countries": [
+    "CN",
+    "VN"
+  ],
+  "transport_style": {
+    "CN": "no_public_transport",
+    "VN": "no_public_transport"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "CN": "hekou",
+    "VN": "laocai"
+  },
+  "difficulty": {
+    "CN": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "CN→VN推奨。昆明から高速鉄道→サパへの黄金ルート。橋を徒歩越境",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

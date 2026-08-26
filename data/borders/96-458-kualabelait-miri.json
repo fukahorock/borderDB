@@ -1,0 +1,40 @@
+{
+  "id": "96-458-kualabelait-miri",
+  "countries": [
+    "BN",
+    "MY"
+  ],
+  "transport_style": {
+    "BN": null,
+    "MY": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "BN": "kualabelait",
+    "MY": "miri"
+  },
+  "difficulty": {
+    "BN": null,
+    "MY": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "BN": "",
+        "MY": "MY→BN。ミリは空港ありでアクセス起点にしやすい"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "BN": "",
+        "MY": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

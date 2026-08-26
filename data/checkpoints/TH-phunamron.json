@@ -1,0 +1,17 @@
+{
+  "slug": "phunamron",
+  "country": "TH",
+  "coords": [
+    13.924671799999999,
+    99.0830239
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Phu%20Nam%20Ron%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "พุน้ำร้อน"
+    ],
+    "ja": "プーナムロン",
+    "en": "Phu Nam Ron"
+  }
+}

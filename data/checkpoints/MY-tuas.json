@@ -1,0 +1,17 @@
+{
+  "slug": "tuas",
+  "country": "MY",
+  "coords": [
+    1.3527889,
+    103.6305366
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Second%20Link%20Malaysia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Tuas Second Link"
+    ],
+    "ja": "セカンドリンク",
+    "en": "Second Link"
+  }
+}

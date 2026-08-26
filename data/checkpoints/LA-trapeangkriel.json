@@ -1,0 +1,17 @@
+{
+  "slug": "trapeangkriel",
+  "country": "LA",
+  "coords": [
+    13.9255169,
+    106.0285193
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Nong%20Nok%20Khiene%20Laos%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ໜອງນົກແຂ່ຽນ"
+    ],
+    "ja": "ノンノックキアン",
+    "en": "Nong Nok Khiene"
+  }
+}

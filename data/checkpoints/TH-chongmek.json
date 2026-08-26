@@ -1,0 +1,17 @@
+{
+  "slug": "chongmek",
+  "country": "TH",
+  "coords": [
+    15.1337072,
+    105.4676288
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Chong%20Mek%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ช่องเม็ก"
+    ],
+    "ja": "チョンメック",
+    "en": "Chong Mek"
+  }
+}

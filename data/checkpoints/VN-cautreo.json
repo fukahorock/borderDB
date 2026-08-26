@@ -1,0 +1,17 @@
+{
+  "slug": "cautreo",
+  "country": "VN",
+  "coords": [
+    18.3881873,
+    105.1592211
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Cau%20Treo%20Vietnam%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Cầu Treo"
+    ],
+    "ja": "カウチェオ",
+    "en": "Cau Treo"
+  }
+}

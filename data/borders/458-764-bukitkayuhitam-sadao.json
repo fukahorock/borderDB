@@ -1,0 +1,40 @@
+{
+  "id": "458-764-bukitkayuhitam-sadao",
+  "countries": [
+    "MY",
+    "TH"
+  ],
+  "transport_style": {
+    "MY": "through",
+    "TH": "through"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "MY": "bukitkayuhitam",
+    "TH": "sadao"
+  },
+  "difficulty": {
+    "MY": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MY": "どちらでもOK。最大規模。6:00-24:00",
+        "TH": "どちらでもOK。最大規模。6:00-24:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MY": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

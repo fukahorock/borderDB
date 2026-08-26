@@ -1,0 +1,40 @@
+{
+  "id": "116-764-paksamet-pailin",
+  "countries": [
+    "KH",
+    "TH"
+  ],
+  "transport_style": {
+    "KH": null,
+    "TH": null
+  },
+  "status": "closed",
+  "status_updated": "",
+  "checkpoints": {
+    "KH": "paksamet",
+    "TH": "pailin"
+  },
+  "difficulty": {
+    "KH": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "",
+        "TH": "TH→KH。チャンタブリーから。eVisa非対応。VOAのみ"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

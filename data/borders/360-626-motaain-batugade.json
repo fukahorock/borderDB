@@ -1,0 +1,40 @@
+{
+  "id": "360-626-motaain-batugade",
+  "countries": [
+    "ID",
+    "TL"
+  ],
+  "transport_style": {
+    "ID": null,
+    "TL": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "ID": "motaain",
+    "TL": "batugade"
+  },
+  "difficulty": {
+    "ID": null,
+    "TL": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "ID": "クパンorアタンブアからバス約1時間。ディリへ4-5時間。8:00-16:00",
+        "TL": "ID→TL推奨。クパンorアタンブアからバス約1時間。ディリへ4-5時間。8:00-16:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "ID": "",
+        "TL": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

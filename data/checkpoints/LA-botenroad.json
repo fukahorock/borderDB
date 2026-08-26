@@ -1,0 +1,14 @@
+{
+  "slug": "botenroad",
+  "country": "LA",
+  "coords": null,
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Boten%20%28road%29%20Laos%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ບໍ່ເຕັນ"
+    ],
+    "ja": "ボーテン(道路)",
+    "en": "Boten (road)"
+  }
+}

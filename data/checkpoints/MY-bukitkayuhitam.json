@@ -1,0 +1,17 @@
+{
+  "slug": "bukitkayuhitam",
+  "country": "MY",
+  "coords": [
+    6.513134099999999,
+    100.4214641
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Bukit%20Kayu%20Hitam%20Malaysia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Bukit Kayu Hitam"
+    ],
+    "ja": "ブキッカユヒタム",
+    "en": "Bukit Kayu Hitam"
+  }
+}

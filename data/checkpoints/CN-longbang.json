@@ -1,0 +1,14 @@
+{
+  "slug": "longbang",
+  "country": "CN",
+  "coords": null,
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Longbang%20China%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "龙邦"
+    ],
+    "ja": "龍邦(ロンバン)",
+    "en": "Longbang"
+  }
+}

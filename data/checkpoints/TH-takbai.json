@@ -1,0 +1,17 @@
+{
+  "slug": "takbai",
+  "country": "TH",
+  "coords": [
+    6.2370529,
+    102.0902563
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Tak%20Bai%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ตากใบ"
+    ],
+    "ja": "タックバイ",
+    "en": "Tak Bai"
+  }
+}

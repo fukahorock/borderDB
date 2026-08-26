@@ -1,0 +1,18 @@
+{
+  "slug": "sadao",
+  "country": "TH",
+  "coords": [
+    6.5191205,
+    100.4201061
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Sadao%20%28Dan%20Nok%29%20Thailand%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "สะเดา",
+      "ด่านนอก"
+    ],
+    "ja": "サダオ(ダンノック)",
+    "en": "Sadao (Dan Nok)"
+  }
+}

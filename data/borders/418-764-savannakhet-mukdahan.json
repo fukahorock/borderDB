@@ -1,0 +1,40 @@
+{
+  "id": "418-764-savannakhet-mukdahan",
+  "countries": [
+    "LA",
+    "TH"
+  ],
+  "transport_style": {
+    "LA": null,
+    "TH": null
+  },
+  "status": "open",
+  "status_updated": "2026-03",
+  "checkpoints": {
+    "LA": "savannakhet",
+    "TH": "mukdahan"
+  },
+  "difficulty": {
+    "LA": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "サワンナケートからバスで",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

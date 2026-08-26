@@ -1,0 +1,40 @@
+{
+  "id": "156-704-dongxing-mongcai",
+  "countries": [
+    "CN",
+    "VN"
+  ],
+  "transport_style": {
+    "CN": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "CN": "dongxing",
+    "VN": "mongcai"
+  },
+  "difficulty": {
+    "CN": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "",
+        "VN": "VN→CN推奨。ハロン湾後に北上が自然。VN7:00-19:00/CN8:00-20:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

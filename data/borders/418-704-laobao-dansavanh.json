@@ -1,0 +1,40 @@
+{
+  "id": "418-704-laobao-dansavanh",
+  "countries": [
+    "LA",
+    "VN"
+  ],
+  "transport_style": {
+    "LA": null,
+    "VN": null
+  },
+  "status": "open",
+  "status_updated": "2026-03",
+  "checkpoints": {
+    "LA": "laobao",
+    "VN": "dansavanh"
+  },
+  "difficulty": {
+    "LA": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "ダナンorフエから。xenoで下車",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

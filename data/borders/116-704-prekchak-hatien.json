@@ -1,0 +1,40 @@
+{
+  "id": "116-704-prekchak-hatien",
+  "countries": [
+    "KH",
+    "VN"
+  ],
+  "transport_style": {
+    "KH": null,
+    "VN": null
+  },
+  "status": "open",
+  "status_updated": "2025-03",
+  "checkpoints": {
+    "KH": "prekchak",
+    "VN": "hatien"
+  },
+  "difficulty": {
+    "KH": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "",
+        "VN": "カンポットからバス"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

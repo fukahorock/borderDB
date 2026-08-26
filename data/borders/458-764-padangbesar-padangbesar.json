@@ -1,0 +1,40 @@
+{
+  "id": "458-764-padangbesar-padangbesar",
+  "countries": [
+    "MY",
+    "TH"
+  ],
+  "transport_style": {
+    "MY": "through",
+    "TH": "through"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "MY": "padangbesar",
+    "TH": "padangbesar"
+  },
+  "difficulty": {
+    "MY": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MY": "どちらでもOK。鉄道越境可。バンコク-バタワース直通。6:00-22:00",
+        "TH": "どちらでもOK。鉄道越境可。バンコク-バタワース直通。6:00-22:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MY": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

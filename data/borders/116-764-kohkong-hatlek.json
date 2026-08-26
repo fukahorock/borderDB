@@ -1,0 +1,40 @@
+{
+  "id": "116-764-kohkong-hatlek",
+  "countries": [
+    "KH",
+    "TH"
+  ],
+  "transport_style": {
+    "KH": "transfer",
+    "TH": "transfer"
+  },
+  "status": "closed",
+  "status_updated": "",
+  "checkpoints": {
+    "KH": "kohkong",
+    "TH": "hatlek"
+  },
+  "difficulty": {
+    "KH": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "",
+        "TH": "TH→KH推奨。トラートから。eVisa対応。6:00-22:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

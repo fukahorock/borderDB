@@ -1,0 +1,40 @@
+{
+  "id": "418-764-thakhek-nakhonphanom",
+  "countries": [
+    "LA",
+    "TH"
+  ],
+  "transport_style": {
+    "LA": "through",
+    "TH": "through"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "LA": "thakhek",
+    "TH": "nakhonphanom"
+  },
+  "difficulty": {
+    "LA": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "どちらでもOK。第3友好橋、国際バスあり",
+        "TH": "どちらでもOK。第3友好橋、国際バスあり"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

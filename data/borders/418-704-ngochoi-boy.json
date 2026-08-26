@@ -1,0 +1,40 @@
+{
+  "id": "418-704-ngochoi-boy",
+  "countries": [
+    "LA",
+    "VN"
+  ],
+  "transport_style": {
+    "LA": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "LA": "ngochoi",
+    "VN": "boy"
+  },
+  "difficulty": {
+    "LA": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "LA→VN推奨。三国国境モニュメント近く。「最もストレスフリー」と評判。アッタプーからミニバス朝7時発",
+        "VN": ""
+      },
+      "trivia": "ラオス・ベトナム・カンボジアの三国国境モニュメントの近く",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

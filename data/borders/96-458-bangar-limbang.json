@@ -1,0 +1,40 @@
+{
+  "id": "96-458-bangar-limbang",
+  "countries": [
+    "BN",
+    "MY"
+  ],
+  "transport_style": {
+    "BN": null,
+    "MY": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "BN": "bangar",
+    "MY": "limbang"
+  },
+  "difficulty": {
+    "BN": null,
+    "MY": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "BN": "",
+        "MY": "MY→BN。リマウンからテンブロン地区へ"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "BN": "",
+        "MY": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

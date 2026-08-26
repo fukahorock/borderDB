@@ -1,0 +1,40 @@
+{
+  "id": "116-704-phnomden-tinhbien",
+  "countries": [
+    "KH",
+    "VN"
+  ],
+  "transport_style": {
+    "KH": null,
+    "VN": null
+  },
+  "status": "open",
+  "status_updated": "2025-03",
+  "checkpoints": {
+    "KH": "phnomden",
+    "VN": "tinhbien"
+  },
+  "difficulty": {
+    "KH": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "チャウドックからバイタクで、国境からはタクシー",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "badau",
+  "country": "ID",
+  "coords": [
+    1.02895,
+    111.878452
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Badau%20Indonesia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Badau (PLBN Nanga Badau)"
+    ],
+    "ja": "バダウ",
+    "en": "Badau"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "392-410-shimonoseki-busan",
+  "countries": [
+    "JP",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "busan",
+    "JP": "shimonoseki"
+  },
+  "transport_style": {
+    "KR": null,
+    "JP": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": null,
+    "JP": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "関釜フェリー、約12時間夜行",
+        "JP": "関釜フェリー、約12時間夜行"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "JP": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

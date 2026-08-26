@@ -1,0 +1,17 @@
+{
+  "slug": "namphao",
+  "country": "LA",
+  "coords": [
+    18.3829314,
+    105.158045
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Nam%20Phao%20Laos%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ນ້ຳເພົາ"
+    ],
+    "ja": "ナムパオ",
+    "en": "Nam Phao"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "392-410-osaka-busan",
+  "countries": [
+    "JP",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "busan",
+    "JP": "osaka"
+  },
+  "transport_style": {
+    "KR": null,
+    "JP": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": null,
+    "JP": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "上海便はコロナ以降旅客休止中との情報あり。要最新確認",
+        "JP": "上海便はコロナ以降旅客休止中との情報あり。要最新確認"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "JP": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

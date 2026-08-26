@@ -1,0 +1,40 @@
+{
+  "id": "156-704-longbang-tralinh",
+  "countries": [
+    "CN",
+    "VN"
+  ],
+  "transport_style": {
+    "CN": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "CN": "longbang",
+    "VN": "tralinh"
+  },
+  "difficulty": {
+    "CN": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "",
+        "VN": "VN→CN推奨。カオバンから1.5-2時間。CN側最寄り=靖西市(Jingxi)。靖西駅→百色→南寧へ鉄道接続。2023年末インターナショナル昇格、外国人通過要確認"
+      },
+      "trivia": "2023年末に国際検問所へ昇格した比較的新しい国境",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

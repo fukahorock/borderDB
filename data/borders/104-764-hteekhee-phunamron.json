@@ -1,0 +1,40 @@
+{
+  "id": "104-764-hteekhee-phunamron",
+  "countries": [
+    "MM",
+    "TH"
+  ],
+  "transport_style": {
+    "MM": null,
+    "TH": null
+  },
+  "status": "closed",
+  "status_updated": "",
+  "checkpoints": {
+    "MM": "hteekhee",
+    "TH": "phunamron"
+  },
+  "difficulty": {
+    "MM": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MM": "",
+        "TH": "TH→MM。カンチャナブリーからバス1日4本70バーツ。eVisa不可、紙ビザ必要"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MM": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

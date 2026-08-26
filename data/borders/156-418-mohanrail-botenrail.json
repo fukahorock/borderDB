@@ -1,0 +1,40 @@
+{
+  "id": "156-418-mohanrail-botenrail",
+  "countries": [
+    "CN",
+    "LA"
+  ],
+  "transport_style": {
+    "CN": "through",
+    "LA": "through"
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "CN": "mohanrail",
+    "LA": "botenrail"
+  },
+  "difficulty": {
+    "CN": null,
+    "LA": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "鉄道(中国ラオス鉄道)。どちらでもOK。道路と別スタンプ",
+        "LA": "鉄道(中国ラオス鉄道)。どちらでもOK。道路と別スタンプ"
+      },
+      "trivia": "道路国境(Boten International Checkpoint)とは別施設・別スタンプ",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "LA": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

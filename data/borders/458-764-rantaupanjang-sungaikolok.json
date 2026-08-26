@@ -1,0 +1,40 @@
+{
+  "id": "458-764-rantaupanjang-sungaikolok",
+  "countries": [
+    "MY",
+    "TH"
+  ],
+  "transport_style": {
+    "MY": null,
+    "TH": null
+  },
+  "status": "open",
+  "status_updated": "2018-03",
+  "checkpoints": {
+    "MY": "rantaupanjang",
+    "TH": "sungaikolok"
+  },
+  "difficulty": {
+    "MY": null,
+    "TH": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "MY": "ナラティワートからスンガイコロクへバスで、あとは徒歩",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "MY": "",
+        "TH": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

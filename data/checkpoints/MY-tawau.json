@@ -1,0 +1,17 @@
+{
+  "slug": "tawau",
+  "country": "MY",
+  "coords": [
+    4.154241,
+    117.9068932
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Tawau%20Malaysia%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Tawau"
+    ],
+    "ja": "タワウ",
+    "en": "Tawau"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "156-410-dandong-incheon",
+  "countries": [
+    "CN",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "incheon",
+    "CN": "dandong"
+  },
+  "transport_style": {
+    "KR": null,
+    "CN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": null,
+    "CN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "北朝鮮国境の街、東港市から出発。週1〜2便",
+        "CN": "北朝鮮国境の街、東港市から出発。週1〜2便"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "CN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

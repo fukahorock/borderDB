@@ -1,0 +1,40 @@
+{
+  "id": "156-410-weihai-pyeongtaek",
+  "countries": [
+    "CN",
+    "KR"
+  ],
+  "checkpoints": {
+    "KR": "pyeongtaek",
+    "CN": "weihai"
+  },
+  "transport_style": {
+    "KR": null,
+    "CN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "KR": null,
+    "CN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KR": "威海・煙台・連雲港・日照等（中国複数都市）行きのひとつ",
+        "CN": "威海・煙台・連雲港・日照等（中国複数都市）行きのひとつ"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KR": "",
+        "CN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

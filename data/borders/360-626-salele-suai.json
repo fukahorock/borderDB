@@ -1,0 +1,40 @@
+{
+  "id": "360-626-salele-suai",
+  "countries": [
+    "ID",
+    "TL"
+  ],
+  "transport_style": {
+    "ID": null,
+    "TL": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "checkpoints": {
+    "ID": "salele",
+    "TL": "suai"
+  },
+  "difficulty": {
+    "ID": null,
+    "TL": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "ID": "TL→ID推奨。モタインと組み合わせて2スタンプ周回。8:00-16:00",
+        "TL": "TL→ID推奨。モタインと組み合わせて2スタンプ周回。8:00-16:00"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "ID": "",
+        "TL": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

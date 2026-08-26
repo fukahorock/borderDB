@@ -1,0 +1,17 @@
+{
+  "slug": "lalay",
+  "country": "LA",
+  "coords": [
+    16.3009395,
+    106.9415133
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=La%20Lay%20Laos%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "ລາລາຍ"
+    ],
+    "ja": "ラライ",
+    "en": "La Lay"
+  }
+}

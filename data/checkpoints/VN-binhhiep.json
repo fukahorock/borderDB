@@ -1,0 +1,17 @@
+{
+  "slug": "binhhiep",
+  "country": "VN",
+  "coords": [
+    10.8385875,
+    105.93057809999999
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Binh%20Hiep%20Vietnam%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Bình Hiệp"
+    ],
+    "ja": "ビンヒエップ",
+    "en": "Binh Hiep"
+  }
+}

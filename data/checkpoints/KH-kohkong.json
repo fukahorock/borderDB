@@ -1,0 +1,17 @@
+{
+  "slug": "kohkong",
+  "country": "KH",
+  "coords": [
+    11.6153,
+    102.9836
+  ],
+  "source_map_url": "",
+  "visa_on_arrival": true,
+  "name": {
+    "local": [
+      "ខេត្តកោះកុង"
+    ],
+    "ja": "ココン",
+    "en": "Koh Kong"
+  }
+}

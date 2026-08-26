@@ -1,0 +1,17 @@
+{
+  "slug": "namxoi",
+  "country": "VN",
+  "coords": [
+    20.2962955,
+    104.62151759999999
+  ],
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Na%20Meo%20Vietnam%20border%20checkpoint",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Na Mèo"
+    ],
+    "ja": "ナメオ",
+    "en": "Na Meo"
+  }
+}
