@@ -1,0 +1,40 @@
+{
+  "id": "156-410-yantai-pyeongtaek",
+  "countries": [
+    "CN",
+    "KR"
+  ],
+  "checkpoints": {
+    "CN": "yantai",
+    "KR": "pyeongtaek"
+  },
+  "transport_style": {
+    "CN": null,
+    "KR": null
+  },
+  "status": "open",
+  "status_updated": "",
+  "difficulty": {
+    "CN": null,
+    "KR": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "仁川（韓国）行き。約14時間",
+        "KR": "威海・煙台・連雲港・日照等（中国5都市）行き"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "KR": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "paksamet",
+  "country": "TH",
+  "coords": [
+    12.9264611,
+    102.493445
+  ],
+  "source_map_url": "",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Ban Pakard"
+    ],
+    "ja": "バンパカード",
+    "en": "Ban Pakard"
+  }
+}

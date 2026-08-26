@@ -1,0 +1,40 @@
+{
+  "id": "156-410-lianyungang-incheon",
+  "countries": [
+    "CN",
+    "KR"
+  ],
+  "checkpoints": {
+    "CN": "lianyungang",
+    "KR": "incheon"
+  },
+  "transport_style": {
+    "CN": null,
+    "KR": null
+  },
+  "status": "open",
+  "status_updated": "",
+  "difficulty": {
+    "CN": null,
+    "KR": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "CN": "仁川（韓国）行き。約20時間",
+        "KR": "丹東・大連・営口・秦皇島・煙台・石島・天津・威海・青島・連雲港（中国）行き。中国各地行きが集結するハブ港"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "CN": "",
+        "KR": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

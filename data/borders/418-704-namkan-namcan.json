@@ -1,0 +1,40 @@
+{
+  "id": "418-704-namkan-namcan",
+  "countries": [
+    "LA",
+    "VN"
+  ],
+  "checkpoints": {
+    "LA": "namkan",
+    "VN": "namcan"
+  },
+  "transport_style": {
+    "LA": null,
+    "VN": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "LA": null,
+    "VN": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "LA→VN推奨。ポーンサワンからヴィンへ。約400km12時間",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

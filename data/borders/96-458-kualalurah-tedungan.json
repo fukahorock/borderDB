@@ -1,0 +1,40 @@
+{
+  "id": "96-458-kualalurah-tedungan",
+  "countries": [
+    "BN",
+    "MY"
+  ],
+  "checkpoints": {
+    "BN": "kualalurah",
+    "MY": "tedungan"
+  },
+  "transport_style": {
+    "BN": null,
+    "MY": null
+  },
+  "status": "needs_verification",
+  "status_updated": "",
+  "difficulty": {
+    "BN": null,
+    "MY": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "BN": "",
+        "MY": "BN→MY。リマウン→バンガーで入りテドゥンガン→リマウンで出ると2スタンプ"
+      },
+      "trivia": "リマウン/バンガーと組み合わせて周回すると2つのスタンプが得られる",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "BN": "",
+        "MY": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

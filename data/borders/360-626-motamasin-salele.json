@@ -1,29 +1,29 @@
 {
-  "id": "360-458-aruk-biawak/serikin",
+  "id": "360-626-motamasin-salele",
   "countries": [
     "ID",
-    "MY"
+    "TL"
   ],
+  "checkpoints": {
+    "ID": "motamasin",
+    "TL": "salele"
+  },
   "transport_style": {
     "ID": null,
-    "MY": null
+    "TL": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "ID": "aruk",
-    "MY": "biawak-serikin"
-  },
   "difficulty": {
     "ID": null,
-    "MY": null
+    "TL": null
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "ID": "外国人通過実績あり。VOA非対応、事前ビザ必要。新しいPLBN施設あり",
-        "MY": "外国人通過実績あり。VOA非対応、事前ビザ必要。新しいPLBN施設あり"
+        "ID": "TL→ID推奨。モタインと組み合わせて2スタンプ周回。8:00-16:00",
+        "TL": "TL→ID推奨。モタインと組み合わせて2スタンプ周回。8:00-16:00"
       },
       "trivia": "",
       "status_note": ""
@@ -31,7 +31,7 @@
     "en": {
       "hint_from": {
         "ID": "",
-        "MY": ""
+        "TL": ""
       },
       "trivia": "",
       "status_note": ""
