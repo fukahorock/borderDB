@@ -12,9 +12,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_NAME = "国境データベース";
+const SITE_DESCRIPTION = "陸路と船で越える、世界の国境の歩き方";
+
 export const metadata: Metadata = {
-  title: "国境データベース",
-  description: "陸路と船で越える、世界の国境の歩き方",
+  metadataBase: new URL("https://border.rock54.net"),
+  title: {
+    default: SITE_NAME,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
+  openGraph: {
+    siteName: SITE_NAME,
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+    type: "website",
+    locale: "ja_JP",
+  },
+  twitter: {
+    card: "summary",
+    title: SITE_NAME,
+    description: SITE_DESCRIPTION,
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

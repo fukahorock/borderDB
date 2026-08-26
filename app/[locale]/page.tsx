@@ -1,13 +1,10 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { SearchForm } from "@/app/components/SearchForm";
 import { countryLabel } from "@/lib/countries";
 import { checkpointDisplayName, freshness } from "@/lib/format";
 import { getFromToMap, getJoinedBorders, sortByRecentlyUpdated } from "@/lib/borders";
 
-export const metadata: Metadata = {
-  title: "国境データベース",
-};
+// ルートlayout.tsxのdefault title/description/OGPをそのまま使う（トップページ用の上書きは不要）
 
 export default async function TopPage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;

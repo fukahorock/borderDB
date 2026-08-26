@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "このサイトについて | 国境データベース" };
+export const metadata: Metadata = { title: "このサイトについて" };
 
 export default function AboutPage() {
   return (

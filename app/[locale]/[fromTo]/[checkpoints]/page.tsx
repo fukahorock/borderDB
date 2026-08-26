@@ -59,9 +59,13 @@ export async function generateMetadata({
   const { from, to, border } = direction;
   const a = border.checkpoints[from].name.ja;
   const b = border.checkpoints[to].name.ja;
+  const title = `${a}⇔${b}の国境越え情報`;
+  const description = `${countryNameJa(from)}から${countryNameJa(to)}へ、${a}を陸路・船で越える方法をまとめました。`;
   return {
-    title: `${a}⇔${b}の国境越え情報 | 国境データベース`,
-    description: `${countryNameJa(from)}から${countryNameJa(to)}へ、${a}を陸路・船で越える方法をまとめました。`,
+    title,
+    description,
+    openGraph: { title, description, type: "article" },
+    twitter: { card: "summary", title, description },
   };
 }
 

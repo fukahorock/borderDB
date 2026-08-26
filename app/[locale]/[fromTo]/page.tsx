@@ -63,12 +63,14 @@ export async function generateMetadata({
   const { fromTo } = await params;
   const parsed = parseFromTo(fromTo);
   if (!parsed) return {};
-  if (parsed.to) {
-    return {
-      title: `${countryNameJa(parsed.from)}→${countryNameJa(parsed.to)}の国境一覧 | 国境データベース`,
-    };
-  }
-  return { title: `${countryNameJa(parsed.from)}から出発する国境一覧 | 国境データベース` };
+  const title = parsed.to
+    ? `${countryNameJa(parsed.from)}→${countryNameJa(parsed.to)}の国境一覧`
+    : `${countryNameJa(parsed.from)}から出発する国境一覧`;
+  return {
+    title,
+    openGraph: { title, type: "website" },
+    twitter: { card: "summary", title },
+  };
 }
 
 export default async function ResultsPage({
