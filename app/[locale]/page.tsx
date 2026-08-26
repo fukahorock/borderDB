@@ -21,7 +21,7 @@ export default async function TopPage({ params }: PageProps<"/[locale]">) {
         className="bg-slate-900 bg-cover bg-center px-4 pb-20 pt-24 text-center text-white"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(15,23,42,0.72), rgba(15,23,42,0.88)), url(/hero/top.jpg)",
+            "linear-gradient(rgba(15,23,42,0.77), rgba(15,23,42,0.93)), url(/hero/top.jpg)",
         }}
       >
         <h1 className="text-4xl font-bold sm:text-5xl">国境データベース</h1>
