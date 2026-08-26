@@ -4,13 +4,19 @@
 
 仕様は [`docs/`](../docs) を参照してください（全体仕様書・UI仕様書・データ管理ツール仕様書）。
 
-## 開発
+## 公開URL
+
+https://fukahorock.github.io/borderDB/
+
+`main`ブランチにpushすると、GitHub Actionsが自動でビルド・デプロイする（`.github/workflows/deploy.yml`）。
+
+## 開発（ローカル確認用）
 
 ```bash
 npm run dev
 ```
 
-[http://localhost:3000](http://localhost:3000) で確認できます。
+[http://localhost:3000](http://localhost:3000) はローカルでの動作確認用。ここでの表示が公開サイトに反映されるわけではなく、pushして初めてGitHub Actions側で改めてビルドされ公開される。
 
 ## データ
 
