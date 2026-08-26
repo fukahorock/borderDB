@@ -5,25 +5,25 @@
     "KR"
   ],
   "checkpoints": {
-    "KR": "pyeongtaek",
-    "CN": "weihai"
+    "CN": "weihai",
+    "KR": "pyeongtaek"
   },
   "transport_style": {
-    "KR": null,
-    "CN": null
+    "CN": null,
+    "KR": null
   },
-  "status": "needs_verification",
+  "status": "open",
   "status_updated": "",
   "difficulty": {
-    "KR": null,
-    "CN": null
+    "CN": null,
+    "KR": null
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KR": "威海・煙台・連雲港・日照等（中国複数都市）行きのひとつ",
-        "CN": "威海・煙台・連雲港・日照等（中国複数都市）行きのひとつ"
+        "CN": "仁川・平沢（韓国）行き。約14時間",
+        "KR": "威海・煙台・連雲港・日照等（中国5都市）行き"
       },
       "trivia": "",
       "status_note": ""

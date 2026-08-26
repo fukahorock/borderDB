@@ -5,25 +5,25 @@
     "KR"
   ],
   "checkpoints": {
-    "KR": "busan",
-    "JP": "izuhara"
+    "JP": "izuhara",
+    "KR": "busan"
   },
   "transport_style": {
-    "KR": null,
-    "JP": null
+    "JP": null,
+    "KR": null
   },
-  "status": "needs_verification",
+  "status": "open",
   "status_updated": "",
   "difficulty": {
-    "KR": null,
-    "JP": null
+    "JP": null,
+    "KR": null
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KR": "対馬南部、約2時間",
-        "JP": "対馬南部、約2時間"
+        "JP": "釜山（韓国）行き。対馬南部、約2時間",
+        "KR": "博多、下関、大阪、対馬（比田勝・厳原）（日本）行き。IN限定"
       },
       "trivia": "",
       "status_note": ""

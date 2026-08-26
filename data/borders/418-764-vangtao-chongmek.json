@@ -5,8 +5,8 @@
     "TH"
   ],
   "transport_style": {
-    "LA": null,
-    "TH": null
+    "LA": "through",
+    "TH": "through"
   },
   "status": "open",
   "status_updated": "2026-02",
@@ -15,15 +15,15 @@
     "TH": "chongmek"
   },
   "difficulty": {
-    "LA": null,
-    "TH": null
+    "LA": 1,
+    "TH": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "LA": "",
-        "TH": "ウボンラチャタニからバスもあるが、チョンメックまで行くほうが早い"
+        "LA": "パクセからウボンラーチャターニー行きの国際バスあり。",
+        "TH": "ウボンラーチャターニーバスターミナルからの国際バスあり。\nただし1日4本程度なので、急ぐ場合はチョンメック行きのバスに乗り徒歩で国境を超え、ラオス側でミニバンやソンテウを拾うことも可能。"
       },
       "trivia": "",
       "status_note": ""

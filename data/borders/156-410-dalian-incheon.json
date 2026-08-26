@@ -5,25 +5,25 @@
     "KR"
   ],
   "checkpoints": {
-    "KR": "incheon",
-    "CN": "dalian"
+    "CN": "dalian",
+    "KR": "incheon"
   },
   "transport_style": {
-    "KR": null,
-    "CN": null
+    "CN": null,
+    "KR": null
   },
-  "status": "needs_verification",
+  "status": "open",
   "status_updated": "",
   "difficulty": {
-    "KR": null,
-    "CN": null
+    "CN": null,
+    "KR": null
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KR": "Dain Ferry等、約14.5時間、週3便",
-        "CN": "Dain Ferry等、約14.5時間、週3便"
+        "CN": "仁川（韓国）行き。Dain Ferry等、約14.5時間、週3便",
+        "KR": "丹東・大連・営口・秦皇島・煙台・石島・天津・威海・青島・連雲港（中国）行き。中国各地行きが集結するハブ港"
       },
       "trivia": "",
       "status_note": ""

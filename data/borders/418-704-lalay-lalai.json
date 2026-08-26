@@ -5,7 +5,7 @@
     "VN"
   ],
   "transport_style": {
-    "LA": null,
+    "LA": "through",
     "VN": null
   },
   "status": "open",
@@ -15,14 +15,14 @@
     "VN": "lalai"
   },
   "difficulty": {
-    "LA": null,
+    "LA": 2,
     "VN": null
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "LA": "パクセからダナン、ドンホイやフエでもいけるかも",
+        "LA": "パクセからフエやダナン行きの直通バスあり。\nパクセ市街地のホテルで乗客をピックアップするバスが、早朝4時頃にあるが、道路状況が悪いので到着が18時を超える。\n人数が少ない場合はドンハあたりでミニバンの乗り換えが発生する。",
         "VN": ""
       },
       "trivia": "",

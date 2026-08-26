@@ -5,8 +5,8 @@
     "LA"
   ],
   "transport_style": {
-    "KH": null,
-    "LA": null
+    "KH": "through",
+    "LA": "through"
   },
   "status": "open",
   "status_updated": "2025-08",
@@ -15,15 +15,15 @@
     "LA": "trapeangkriel"
   },
   "difficulty": {
-    "KH": null,
-    "LA": null
+    "KH": 1,
+    "LA": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KH": "コンポンチャムからパクセまでバス",
-        "LA": ""
+        "KH": "プノンペンやクラチエ、ストゥントレン、コンポンチャムからパクセ行きの直通バスあり。\nシーパンドンの最寄りであるNakasong経由のものが多い。\n\n国境で賄賂を要求される時があるが、VETなどのお高めのバスだと、スタッフが入国審査ブースの前に立って見てくれているので、初心者にはオススメ。",
+        "LA": "パクセからプノンペンやシェムリアップなどへ行くバスあり。\nローカルバスでも移動可能だが、カンボジアに入ってからの移動手段が乏しい。"
       },
       "trivia": "",
       "status_note": ""

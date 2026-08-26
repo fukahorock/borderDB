@@ -5,25 +5,25 @@
     "KR"
   ],
   "checkpoints": {
-    "KR": "busan",
-    "JP": "osaka"
+    "JP": "osaka",
+    "KR": "busan"
   },
   "transport_style": {
-    "KR": null,
-    "JP": null
+    "JP": null,
+    "KR": null
   },
-  "status": "needs_verification",
+  "status": "open",
   "status_updated": "",
   "difficulty": {
-    "KR": null,
-    "JP": null
+    "JP": null,
+    "KR": null
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KR": "上海便はコロナ以降旅客休止中との情報あり。要最新確認",
-        "JP": "上海便はコロナ以降旅客休止中との情報あり。要最新確認"
+        "JP": "上海（中国）・釜山（韓国）行き。上海便はコロナ以降旅客休止中",
+        "KR": "博多、下関、大阪、対馬（比田勝・厳原）（日本）行き。IN限定"
       },
       "trivia": "",
       "status_note": ""

@@ -2,16 +2,16 @@
   "slug": "kohkong",
   "country": "KH",
   "coords": [
-    11.6153,
-    102.9836
+    11.650566,
+    102.9102471
   ],
-  "source_map_url": "",
-  "visa_on_arrival": true,
+  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Koh%20Kong%20%28Cham%20Yeam%29%20Cambodia%20border%20checkpoint",
+  "visa_on_arrival": null,
   "name": {
     "local": [
-      "ខេត្តកោះកុង"
+      "ចាមយាម"
     ],
-    "ja": "ココン",
+    "ja": "コッコン",
     "en": "Koh Kong"
   }
 }
