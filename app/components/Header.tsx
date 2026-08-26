@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { countryLabel } from "@/lib/countries";
 import { groupByRegion } from "@/lib/regions";
+import { ThemeToggle } from "@/app/components/ThemeToggle";
 
 interface HeaderProps {
   locale: string;
@@ -24,7 +25,7 @@ export function Header({ locale, originCountries }: HeaderProps) {
       className={
         isTop
           ? "absolute inset-x-0 top-0 z-20 flex items-center gap-4 px-4 py-4"
-          : "relative z-20 flex items-center gap-4 border-b border-slate-200 bg-white px-4 py-3"
+          : "relative z-20 flex items-center gap-4 border-b border-slate-200 bg-white px-4 py-3 dark:border-slate-800 dark:bg-slate-900"
       }
     >
       <button
@@ -32,12 +33,12 @@ export function Header({ locale, originCountries }: HeaderProps) {
         aria-label="メニュー"
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className={`text-2xl leading-none ${isTop ? "text-white" : "text-slate-700"}`}
+        className={`text-2xl leading-none ${isTop ? "text-white" : "text-slate-700 dark:text-slate-200"}`}
       >
         ☰
       </button>
       {!isTop && (
-        <Link href={`/${locale}`} className="font-semibold text-slate-900">
+        <Link href={`/${locale}`} className="font-semibold text-slate-900 dark:text-slate-100">
           国境データベース
         </Link>
       )}
@@ -46,49 +47,57 @@ export function Header({ locale, originCountries }: HeaderProps) {
         <>
           {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions, jsx-a11y/click-events-have-key-events */}
           <div className="fixed inset-0 z-10" onClick={() => setOpen(false)} />
-          <nav className="absolute left-4 top-full z-20 mt-2 w-72 rounded-lg border border-slate-200 bg-white p-2 text-slate-700 shadow-lg">
+          <nav className="absolute left-4 top-full z-20 mt-2 w-72 rounded-lg border border-slate-200 bg-white p-2 text-slate-700 shadow-lg dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200">
+            <div className="px-1 pb-2 pt-1">
+              <ThemeToggle />
+            </div>
+
             <Link
               href={`/${locale}`}
-              className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50"
+              className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-700"
               onClick={() => setOpen(false)}
             >
               トップ
             </Link>
             <Link
               href={`/${locale}/about`}
-              className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50"
+              className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-700"
               onClick={() => setOpen(false)}
             >
               このサイトについて
             </Link>
             <Link
               href={`/${locale}/privacy`}
-              className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50"
+              className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-700"
               onClick={() => setOpen(false)}
             >
               プライバシーポリシー
             </Link>
             <a
               href="#"
-              className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50"
+              className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-700"
               onClick={() => setOpen(false)}
             >
               情報募集中
             </a>
 
-            <div className="my-2 border-t border-slate-100" />
+            <div className="my-2 border-t border-slate-100 dark:border-slate-700" />
 
-            <p className="px-3 pb-1 pt-2 text-sm font-medium text-slate-700">国から探す</p>
+            <p className="px-3 pb-1 pt-2 text-sm font-medium text-slate-700 dark:text-slate-200">
+              国から探す
+            </p>
             <div className="max-h-72 overflow-y-auto px-1 pb-1">
               {regions.map((r) => (
                 <div key={r.region} className="px-2 py-1">
-                  <p className="text-xs font-medium text-slate-400">{r.region}</p>
+                  <p className="text-xs font-medium text-slate-400 dark:text-slate-500">
+                    {r.region}
+                  </p>
                   <div className="mt-1 flex flex-col">
                     {r.codes.map((code) => (
                       <Link
                         key={code}
                         href={`/${locale}/${code.toLowerCase()}`}
-                        className="rounded-md px-2 py-1.5 text-sm hover:bg-slate-50"
+                        className="rounded-md px-2 py-1.5 text-sm hover:bg-slate-50 dark:hover:bg-slate-700"
                         onClick={() => setOpen(false)}
                       >
                         {countryLabel(code)}

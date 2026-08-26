@@ -104,9 +104,9 @@ export default async function ResultsPage({
 
   return (
     <>
-      <section className="border-b border-slate-200 px-4 py-6">
+      <section className="border-b border-slate-200 px-4 py-6 dark:border-slate-800">
         <div className="mx-auto flex max-w-5xl flex-col gap-4">
-          <h1 className="text-xl font-semibold text-slate-900">
+          <h1 className="text-xl font-semibold text-slate-900 dark:text-slate-100">
             {to
               ? `${countryLabel(from)} → ${countryLabel(to)} の国境（${matches.length}件）`
               : `${countryLabel(from)} から出発できる国境（${matches.length}件）`}
@@ -124,21 +124,24 @@ export default async function ResultsPage({
       <section className="px-4 py-8">
         <div className="mx-auto grid max-w-5xl gap-4 sm:grid-cols-3">
           {groupedCards.map((g) => (
-            <div key={g.key} className="rounded-lg border border-slate-200 p-4 sm:col-span-3">
-              <p className="font-medium text-slate-900">
+            <div
+              key={g.key}
+              className="rounded-lg border border-slate-200 p-4 sm:col-span-3 dark:border-slate-700"
+            >
+              <p className="font-medium text-slate-900 dark:text-slate-100">
                 {checkpointDisplayName(g.origin)}
-                <span className="mx-2 text-slate-400">⇔</span>
+                <span className="mx-2 text-slate-400 dark:text-slate-500">⇔</span>
                 {g.destinations.map((d, i) => (
                   <span key={d.checkpoint.slug}>
-                    {i > 0 && <span className="text-slate-400">、</span>}
+                    {i > 0 && <span className="text-slate-400 dark:text-slate-500">、</span>}
                     <Link
                       href={`/${locale}/${from.toLowerCase()}-to-${d.toCountry.toLowerCase()}/${g.origin.slug}-${d.checkpoint.slug}`}
-                      className="text-emerald-700 underline-offset-2 hover:underline"
+                      className="text-emerald-700 underline-offset-2 hover:underline dark:text-emerald-400"
                     >
                       {checkpointDisplayName(d.checkpoint)}
                     </Link>
                     {!to && (
-                      <span className="ml-1 text-xs text-slate-400">
+                      <span className="ml-1 text-xs text-slate-400 dark:text-slate-500">
                         （{countryLabel(d.toCountry)}）
                       </span>
                     )}
@@ -155,21 +158,23 @@ export default async function ResultsPage({
               <Link
                 key={g.key}
                 href={`/${locale}/${from.toLowerCase()}-to-${d.toCountry.toLowerCase()}/${g.origin.slug}-${d.checkpoint.slug}`}
-                className="rounded-lg border border-slate-200 p-4 transition hover:border-emerald-600 hover:shadow-sm"
+                className="rounded-lg border border-slate-200 p-4 transition hover:border-emerald-600 hover:shadow-sm dark:border-slate-700 dark:hover:border-emerald-500"
               >
-                <p className="font-medium text-slate-900">
+                <p className="font-medium text-slate-900 dark:text-slate-100">
                   {checkpointDisplayName(g.origin)} ⇔ {checkpointDisplayName(d.checkpoint)}
                 </p>
                 {!to && (
-                  <p className="mt-1 text-xs text-slate-400">{countryLabel(d.toCountry)}</p>
+                  <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
+                    {countryLabel(d.toCountry)}
+                  </p>
                 )}
-                <p className="mt-2 text-sm text-slate-600">
+                <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
                   {stars ?? "評価未定"}
-                  <span className="ml-2 text-xs text-slate-400">
+                  <span className="ml-2 text-xs text-slate-400 dark:text-slate-500">
                     {transportStyleLabel(d.border.transport_style[from])}
                   </span>
                 </p>
-                <span className="mt-2 inline-block rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600">
+                <span className="mt-2 inline-block rounded-full bg-slate-100 px-2 py-0.5 text-xs text-slate-600 dark:bg-slate-800 dark:text-slate-300">
                   {statusLabelJa(d.border.status)}
                 </span>
               </Link>
@@ -178,10 +183,10 @@ export default async function ResultsPage({
         </div>
       </section>
 
-      <section className="border-t border-slate-200 px-4 py-5">
+      <section className="border-t border-slate-200 px-4 py-5 dark:border-slate-800">
         <Link
           href="#"
-          className="mx-auto flex max-w-3xl items-center justify-between rounded-md bg-emerald-50 px-4 py-3 text-sm text-emerald-800"
+          className="mx-auto flex max-w-3xl items-center justify-between rounded-md bg-emerald-50 px-4 py-3 text-sm text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300"
         >
           <span>この検索結果にない国境の情報をお持ちの方はこちら</span>
           <span aria-hidden>›</span>

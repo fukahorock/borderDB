@@ -103,20 +103,26 @@ export default async function DetailPage({
   return (
     <div className="mx-auto w-full max-w-3xl px-4 py-8">
       {/* 1. パンくずリスト */}
-      <nav className="mb-4 flex flex-wrap items-center gap-1 text-sm text-slate-500">
-        <Link href={`/${locale}`} className="hover:text-emerald-700">
+      <nav className="mb-4 flex flex-wrap items-center gap-1 text-sm text-slate-500 dark:text-slate-400">
+        <Link href={`/${locale}`} className="hover:text-emerald-700 dark:hover:text-emerald-400">
           トップ
         </Link>
         <span>›</span>
-        <Link href={`/${locale}/${from.toLowerCase()}`} className="hover:text-emerald-700">
+        <Link
+          href={`/${locale}/${from.toLowerCase()}`}
+          className="hover:text-emerald-700 dark:hover:text-emerald-400"
+        >
           {countryNameJa(from)}
         </Link>
         <span>›</span>
-        <Link href={`/${locale}/${to.toLowerCase()}`} className="hover:text-emerald-700">
+        <Link
+          href={`/${locale}/${to.toLowerCase()}`}
+          className="hover:text-emerald-700 dark:hover:text-emerald-400"
+        >
           {countryNameJa(to)}
         </Link>
         <span>›</span>
-        <span className="text-slate-700">
+        <span className="text-slate-700 dark:text-slate-300">
           {originCp.name.ja}⇔{destCp.name.ja}
         </span>
       </nav>
@@ -124,11 +130,11 @@ export default async function DetailPage({
       {/* 2. 検問所名／ステータス */}
       <div className="mb-1 flex flex-wrap items-start justify-between gap-3">
         <div>
-          <h1 className="text-2xl font-bold text-slate-900">
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-slate-100">
             {flagEmoji(from)} {originCp.name.ja} → {flagEmoji(to)} {destCp.name.ja}
           </h1>
           {(originDetails || destDetails) && (
-            <p className="mt-1 text-sm text-slate-400">
+            <p className="mt-1 text-sm text-slate-400 dark:text-slate-500">
               {originDetails ?? originCp.name.ja}
               <span className="mx-1">→</span>
               {destDetails ?? destCp.name.ja}
@@ -136,24 +142,30 @@ export default async function DetailPage({
           )}
         </div>
         <div className="flex items-center gap-2">
-          <span className="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700">
+          <span className="rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700 dark:bg-slate-800 dark:text-slate-300">
             {statusLabelJa(border.status)}
           </span>
           <ShareButton title={`${originCp.name.ja}⇔${destCp.name.ja}の国境越え情報`} />
         </div>
       </div>
-      <p className={`mb-6 mt-2 text-xs ${fresh.level === "stale" ? "text-amber-600" : "text-slate-400"}`}>
+      <p
+        className={`mb-6 mt-2 text-xs ${
+          fresh.level === "stale"
+            ? "text-amber-600 dark:text-amber-400"
+            : "text-slate-400 dark:text-slate-500"
+        }`}
+      >
         {fresh.label}
       </p>
 
       {needsWarning && (
-        <div className="mb-6 rounded-md border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-800">
+        <div className="mb-6 rounded-md border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-800 dark:border-amber-700 dark:bg-amber-900/30 dark:text-amber-300">
           この国境は現在「{statusLabelJa(border.status)}」の状態です。渡航前に必ず最新情報をご確認ください。
         </div>
       )}
 
       {/* 3. 国別の固定情報 */}
-      <div className="mb-6 flex flex-col gap-2 rounded-lg border border-slate-200 p-4 text-sm">
+      <div className="mb-6 flex flex-col gap-2 rounded-lg border border-slate-200 p-4 text-sm dark:border-slate-700">
         <p>
           アライバルビザ（{countryNameJa(from)}入国）：{visaLabel(originCp.visa_on_arrival)}
         </p>
@@ -164,26 +176,26 @@ export default async function DetailPage({
           href={`https://www.google.com/maps/dir/?api=1&origin=${originCp.coords?.[0]},${originCp.coords?.[1]}&destination=${destCp.coords?.[0]},${destCp.coords?.[1]}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-1 inline-block w-fit rounded-md border border-slate-300 px-3 py-1.5 text-emerald-700 hover:bg-emerald-50"
+          className="mt-1 inline-block w-fit rounded-md border border-slate-300 px-3 py-1.5 text-emerald-700 hover:bg-emerald-50 dark:border-slate-600 dark:text-emerald-400 dark:hover:bg-emerald-900/30"
         >
           Googleマップで見る
         </a>
       </div>
 
-      <div className="mb-6 flex items-center justify-center rounded border border-dashed border-slate-300 py-8 text-sm text-slate-400">
+      <div className="mb-6 flex items-center justify-center rounded border border-dashed border-slate-300 py-8 text-sm text-slate-400 dark:border-slate-700 dark:text-slate-500">
         広告枠
       </div>
 
       {/* 4. 方向切り替えタブ／リンク */}
       {/* replace を使い、タブ切り替えを履歴に積まない（ブラウザバックで検索結果に一発で戻れるように） */}
-      <div className="mb-6 hidden gap-1 rounded-lg bg-slate-100 p-1 sm:flex">
-        <span className="flex-1 rounded-md bg-white px-4 py-2 text-center text-sm font-semibold text-emerald-700 shadow-sm">
+      <div className="mb-6 hidden gap-1 rounded-lg bg-slate-100 p-1 sm:flex dark:bg-slate-800">
+        <span className="flex-1 rounded-md bg-white px-4 py-2 text-center text-sm font-semibold text-emerald-700 shadow-sm dark:bg-slate-700 dark:text-emerald-400">
           {flagEmoji(from)}{originCp.name.ja}→{flagEmoji(to)}{destCp.name.ja}
         </span>
         <Link
           href={`/${locale}/${reverseFromTo}/${reverseCheckpoints}`}
           replace
-          className="flex-1 rounded-md px-4 py-2 text-center text-sm text-slate-500 hover:bg-white/60"
+          className="flex-1 rounded-md px-4 py-2 text-center text-sm text-slate-500 hover:bg-white/60 dark:text-slate-400 dark:hover:bg-slate-700/60"
         >
           {flagEmoji(to)}{destCp.name.ja}→{flagEmoji(from)}{originCp.name.ja}
         </Link>
@@ -192,7 +204,7 @@ export default async function DetailPage({
         <Link
           href={`/${locale}/${reverseFromTo}/${reverseCheckpoints}`}
           replace
-          className="text-sm text-emerald-700 underline"
+          className="text-sm text-emerald-700 underline dark:text-emerald-400"
         >
           逆方向（{flagEmoji(to)}{destCp.name.ja}→{flagEmoji(from)}{originCp.name.ja}）の情報はこちら
         </Link>
@@ -201,12 +213,14 @@ export default async function DetailPage({
       {/* 5. 方向依存の基本情報 */}
       <div className="mb-8 flex flex-wrap gap-6 text-sm">
         <p>
-          <span className="text-slate-500">難易度：</span>
+          <span className="text-slate-500 dark:text-slate-400">難易度：</span>
           <span className="font-medium">{stars ?? "評価未定"}</span>
-          {stars && <span className="ml-1 text-xs text-slate-400">（編集者評価）</span>}
+          {stars && (
+            <span className="ml-1 text-xs text-slate-400 dark:text-slate-500">（編集者評価）</span>
+          )}
         </p>
         <p>
-          <span className="text-slate-500">移動：</span>
+          <span className="text-slate-500 dark:text-slate-400">移動：</span>
           <span className="font-medium">{transportStyleLabel(border.transport_style[from])}</span>
         </p>
       </div>
@@ -214,11 +228,11 @@ export default async function DetailPage({
       {/* 6. hint_from */}
       {hintFrom && (
         <section className="mb-8">
-          <h2 className="mb-2 text-lg font-semibold text-slate-900">
+          <h2 className="mb-2 text-lg font-semibold text-slate-900 dark:text-slate-100">
             {originCp.name.ja}を経由して{countryNameJa(to)}に入る方法
           </h2>
           <p
-            className="text-sm leading-relaxed text-slate-700"
+            className="text-sm leading-relaxed text-slate-700 dark:text-slate-300"
             dangerouslySetInnerHTML={{ __html: renderHint(hintFrom) }}
           />
         </section>
@@ -226,9 +240,9 @@ export default async function DetailPage({
 
       {/* 7. trivia */}
       {trivia && (
-        <section className="mb-8 border-t border-slate-100 pt-4">
+        <section className="mb-8 border-t border-slate-100 pt-4 dark:border-slate-800">
           <p
-            className="text-sm leading-relaxed text-slate-500"
+            className="text-sm leading-relaxed text-slate-500 dark:text-slate-400"
             dangerouslySetInnerHTML={{ __html: renderHint(trivia) }}
           />
         </section>

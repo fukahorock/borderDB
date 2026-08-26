@@ -65,7 +65,7 @@ export function BorderMap({ points }: BorderMapProps) {
 
   if (points.length === 0) {
     return (
-      <div className="flex h-72 items-center justify-center rounded-lg border border-dashed border-slate-300 text-sm text-slate-400">
+      <div className="flex h-72 items-center justify-center rounded-lg border border-dashed border-slate-300 text-sm text-slate-400 dark:border-slate-700 dark:text-slate-500">
         位置情報が未確定のため地図を表示できません
       </div>
     );

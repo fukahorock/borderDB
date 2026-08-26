@@ -29,7 +29,7 @@ export default async function LocaleLayout({
     <div className="flex min-h-full flex-col">
       <Header locale={locale} originCountries={originCountries} />
       <main className="flex flex-1 flex-col">{children}</main>
-      <Footer />
+      <Footer locale={locale} />
     </div>
   );
 }

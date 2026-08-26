@@ -5,8 +5,8 @@ export const metadata: Metadata = { title: "このサイトについて" };
 export default function AboutPage() {
   return (
     <div className="mx-auto w-full max-w-2xl px-4 py-12">
-      <h1 className="mb-6 text-2xl font-bold text-slate-900">このサイトについて</h1>
-      <div className="flex flex-col gap-4 text-sm leading-relaxed text-slate-700">
+      <h1 className="mb-6 text-2xl font-bold text-slate-900 dark:text-slate-100">このサイトについて</h1>
+      <div className="flex flex-col gap-4 text-sm leading-relaxed text-slate-700 dark:text-slate-300">
         <p>
           国境データベースは、国境越えを趣味にしている人向けの、検索・閲覧できるデータベースサイトです。陸路（徒歩・車両・鉄道・橋）と、一般客が乗船できる旅客船での国境越えを対象にしています。
         </p>
