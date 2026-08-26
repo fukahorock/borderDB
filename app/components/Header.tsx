@@ -16,7 +16,6 @@ export function Header({ locale, originCountries }: HeaderProps) {
   const pathname = usePathname();
   const isTop = pathname === `/${locale}`;
   const [open, setOpen] = useState(false);
-  const [treeOpen, setTreeOpen] = useState(false);
 
   const regions = groupByRegion(originCountries);
 
@@ -79,37 +78,26 @@ export function Header({ locale, originCountries }: HeaderProps) {
 
             <div className="my-2 border-t border-slate-100" />
 
-            <button
-              type="button"
-              onClick={() => setTreeOpen((v) => !v)}
-              className="flex w-full items-center justify-between rounded-md px-3 py-2 text-left text-sm font-medium hover:bg-slate-50"
-            >
-              国から探す
-              <span aria-hidden>{treeOpen ? "▾" : "▸"}</span>
-            </button>
-            {treeOpen && (
-              <div className="max-h-64 overflow-y-auto px-1 pb-1">
-                {regions.map((r) => (
-                  <details key={r.region} open className="px-2 py-1">
-                    <summary className="cursor-pointer text-xs font-medium text-slate-400">
-                      {r.region}
-                    </summary>
-                    <div className="mt-1 flex flex-col">
-                      {r.codes.map((code) => (
-                        <Link
-                          key={code}
-                          href={`/${locale}/${code.toLowerCase()}`}
-                          className="rounded-md px-2 py-1.5 text-sm hover:bg-slate-50"
-                          onClick={() => setOpen(false)}
-                        >
-                          {countryLabel(code)}
-                        </Link>
-                      ))}
-                    </div>
-                  </details>
-                ))}
-              </div>
-            )}
+            <p className="px-3 pb-1 pt-2 text-sm font-medium text-slate-700">国から探す</p>
+            <div className="max-h-72 overflow-y-auto px-1 pb-1">
+              {regions.map((r) => (
+                <div key={r.region} className="px-2 py-1">
+                  <p className="text-xs font-medium text-slate-400">{r.region}</p>
+                  <div className="mt-1 flex flex-col">
+                    {r.codes.map((code) => (
+                      <Link
+                        key={code}
+                        href={`/${locale}/${code.toLowerCase()}`}
+                        className="rounded-md px-2 py-1.5 text-sm hover:bg-slate-50"
+                        onClick={() => setOpen(false)}
+                      >
+                        {countryLabel(code)}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
           </nav>
         </>
       )}
