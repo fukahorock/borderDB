@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { OGP_IMAGE, SITE_DESCRIPTION, SITE_NAME } from "@/lib/seo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -11,9 +12,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-const SITE_NAME = "国境データベース";
-const SITE_DESCRIPTION = "陸路と船で越える、世界の国境の歩き方";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://border.rock54.net"),
@@ -28,11 +26,13 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     type: "website",
     locale: "ja_JP",
+    images: [OGP_IMAGE],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
+    images: [OGP_IMAGE.url],
   },
 };
 

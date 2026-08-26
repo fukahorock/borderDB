@@ -6,6 +6,7 @@ import { countryLabel, countryNameJa } from "@/lib/countries";
 import { checkpointDisplayName, difficultyStars, statusLabelJa, transportStyleLabel } from "@/lib/format";
 import { getAllDirections, getFromToMap, type JoinedBorder } from "@/lib/borders";
 import type { CheckpointData } from "@/lib/checkpoints";
+import { OGP_IMAGE } from "@/lib/seo";
 
 interface DestinationEntry {
   border: JoinedBorder;
@@ -68,8 +69,8 @@ export async function generateMetadata({
     : `${countryNameJa(parsed.from)}から出発する国境一覧`;
   return {
     title,
-    openGraph: { title, type: "website" },
-    twitter: { card: "summary", title },
+    openGraph: { title, type: "website", images: [OGP_IMAGE] },
+    twitter: { card: "summary_large_image", title, images: [OGP_IMAGE.url] },
   };
 }
 

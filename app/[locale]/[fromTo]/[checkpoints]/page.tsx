@@ -14,6 +14,7 @@ import {
 } from "@/lib/format";
 import { getAllDirections, type Direction } from "@/lib/borders";
 import type { CheckpointData } from "@/lib/checkpoints";
+import { OGP_IMAGE } from "@/lib/seo";
 
 function parseFromTo(fromTo: string): { from: string; to: string } | null {
   if (fromTo.length !== 8 || fromTo.slice(2, 6) !== "-to-") return null;
@@ -64,8 +65,8 @@ export async function generateMetadata({
   return {
     title,
     description,
-    openGraph: { title, description, type: "article" },
-    twitter: { card: "summary", title, description },
+    openGraph: { title, description, type: "article", images: [OGP_IMAGE] },
+    twitter: { card: "summary_large_image", title, description, images: [OGP_IMAGE.url] },
   };
 }
 
