@@ -87,6 +87,21 @@ export default async function DetailPage({
   const reverseFromTo = `${to.toLowerCase()}-to-${from.toLowerCase()}`;
   const reverseCheckpoints = `${destCp.slug}-${originCp.slug}`;
 
+  // タブの左右は現在の閲覧方向によらず、国境レコードのcountries順（固定）で決める。
+  // こうしないと、タブを切り替えるたびに左右の表示が入れ替わってしまう。
+  const [countryA, countryB] = border.countries;
+  const cpA = border.checkpoints[countryA];
+  const cpB = border.checkpoints[countryB];
+  const isForward = from === countryA;
+  const tabAtoB = {
+    fromTo: `${countryA.toLowerCase()}-to-${countryB.toLowerCase()}`,
+    checkpoints: `${cpA.slug}-${cpB.slug}`,
+  };
+  const tabBtoA = {
+    fromTo: `${countryB.toLowerCase()}-to-${countryA.toLowerCase()}`,
+    checkpoints: `${cpB.slug}-${cpA.slug}`,
+  };
+
   const stars = difficultyStars(border.difficulty[from]);
   const fresh = freshness(border.status_updated);
   const hintFrom = border.i18n.ja?.hint_from?.[from] ?? "";
@@ -189,16 +204,32 @@ export default async function DetailPage({
       {/* 4. 方向切り替えタブ／リンク */}
       {/* replace を使い、タブ切り替えを履歴に積まない（ブラウザバックで検索結果に一発で戻れるように） */}
       <div className="mb-6 hidden gap-1 rounded-lg bg-slate-100 p-1 sm:flex dark:bg-slate-800">
-        <span className="flex-1 rounded-md bg-white px-4 py-2 text-center text-sm font-semibold text-emerald-700 shadow-sm dark:bg-slate-700 dark:text-emerald-400">
-          {flagEmoji(from)}{originCp.name.ja}→{flagEmoji(to)}{destCp.name.ja}
-        </span>
-        <Link
-          href={`/${locale}/${reverseFromTo}/${reverseCheckpoints}`}
-          replace
-          className="flex-1 rounded-md px-4 py-2 text-center text-sm text-slate-500 hover:bg-white/60 dark:text-slate-400 dark:hover:bg-slate-700/60"
-        >
-          {flagEmoji(to)}{destCp.name.ja}→{flagEmoji(from)}{originCp.name.ja}
-        </Link>
+        {isForward ? (
+          <span className="flex-1 rounded-md bg-white px-4 py-2 text-center text-sm font-semibold text-emerald-700 shadow-sm dark:bg-slate-700 dark:text-emerald-400">
+            {flagEmoji(countryA)}{cpA.name.ja}→{flagEmoji(countryB)}{cpB.name.ja}
+          </span>
+        ) : (
+          <Link
+            href={`/${locale}/${tabAtoB.fromTo}/${tabAtoB.checkpoints}`}
+            replace
+            className="flex-1 rounded-md px-4 py-2 text-center text-sm text-slate-500 hover:bg-white/60 dark:text-slate-400 dark:hover:bg-slate-700/60"
+          >
+            {flagEmoji(countryA)}{cpA.name.ja}→{flagEmoji(countryB)}{cpB.name.ja}
+          </Link>
+        )}
+        {!isForward ? (
+          <span className="flex-1 rounded-md bg-white px-4 py-2 text-center text-sm font-semibold text-emerald-700 shadow-sm dark:bg-slate-700 dark:text-emerald-400">
+            {flagEmoji(countryB)}{cpB.name.ja}→{flagEmoji(countryA)}{cpA.name.ja}
+          </span>
+        ) : (
+          <Link
+            href={`/${locale}/${tabBtoA.fromTo}/${tabBtoA.checkpoints}`}
+            replace
+            className="flex-1 rounded-md px-4 py-2 text-center text-sm text-slate-500 hover:bg-white/60 dark:text-slate-400 dark:hover:bg-slate-700/60"
+          >
+            {flagEmoji(countryB)}{cpB.name.ja}→{flagEmoji(countryA)}{cpA.name.ja}
+          </Link>
+        )}
       </div>
       <div className="mb-6 sm:hidden">
         <Link
