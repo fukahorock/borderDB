@@ -1,19 +1,31 @@
 import Link from "next/link";
 import { SearchForm } from "@/app/components/SearchForm";
+import { RandomBorders, type RandomEntry } from "@/app/components/RandomBorders";
 import { countryLabel } from "@/lib/countries";
 import { checkpointDisplayName, freshness } from "@/lib/format";
-import { getFromToMap, getJoinedBorders, sortByRecentlyUpdated } from "@/lib/borders";
+import { getAllDirections, getFromToMap, getJoinedBorders, sortByRecentlyUpdated } from "@/lib/borders";
 
 // ルートlayout.tsxのdefault title/description/OGPをそのまま使う（トップページ用の上書きは不要）
 
 export default async function TopPage({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
 
-  const [borders, fromToMap] = await Promise.all([
+  const [borders, fromToMap, directions] = await Promise.all([
     getJoinedBorders(),
     getFromToMap(),
+    getAllDirections(),
   ]);
   const recentBorders = sortByRecentlyUpdated(borders).slice(0, 3);
+
+  const randomEntries: RandomEntry[] = directions.map((d) => ({
+    href: `/${locale}/${d.from.toLowerCase()}-to-${d.to.toLowerCase()}/${
+      d.border.checkpoints[d.from].slug
+    }-${d.border.checkpoints[d.to].slug}`,
+    origin: checkpointDisplayName(d.border.checkpoints[d.from]),
+    dest: checkpointDisplayName(d.border.checkpoints[d.to]),
+    originCountry: countryLabel(d.from),
+    destCountry: countryLabel(d.to),
+  }));
 
   return (
     <>
@@ -75,6 +87,15 @@ export default async function TopPage({ params }: PageProps<"/[locale]">) {
               </Link>
             );
           })}
+        </div>
+      </section>
+
+      <section className="border-b border-slate-200 px-4 py-8 dark:border-slate-800">
+        <h2 className="mx-auto mb-3 max-w-5xl text-sm font-semibold text-slate-500 dark:text-slate-400">
+          次はここを旅してみない？
+        </h2>
+        <div className="mx-auto max-w-5xl">
+          <RandomBorders entries={randomEntries} />
         </div>
       </section>
 
