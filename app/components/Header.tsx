@@ -88,11 +88,17 @@ export function Header({ locale, originCountries }: HeaderProps) {
             </p>
             <div className="max-h-72 overflow-y-auto px-1 pb-1">
               {regions.map((r) => (
-                <div key={r.region} className="px-2 py-1">
-                  <p className="text-xs font-medium text-slate-400 dark:text-slate-500">
+                <details key={r.region} className="group px-1 py-0.5">
+                  <summary className="flex cursor-pointer list-none items-center justify-between rounded-md px-2 py-1.5 text-sm font-medium text-slate-600 hover:bg-slate-50 dark:text-slate-300 dark:hover:bg-slate-700">
                     {r.region}
-                  </p>
-                  <div className="mt-1 flex flex-col">
+                    <span
+                      aria-hidden
+                      className="text-slate-400 transition-transform group-open:rotate-90 dark:text-slate-500"
+                    >
+                      ▸
+                    </span>
+                  </summary>
+                  <div className="flex flex-col pl-2">
                     {r.codes.map((code) => (
                       <Link
                         key={code}
@@ -104,7 +110,7 @@ export function Header({ locale, originCountries }: HeaderProps) {
                       </Link>
                     ))}
                   </div>
-                </div>
+                </details>
               ))}
             </div>
           </nav>
