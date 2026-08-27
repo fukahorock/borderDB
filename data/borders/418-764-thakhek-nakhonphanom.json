@@ -4,16 +4,16 @@
     "LA",
     "TH"
   ],
+  "checkpoints": {
+    "LA": "thakhek",
+    "TH": "nakhonphanom"
+  },
   "transport_style": {
     "LA": "through",
     "TH": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "thakhek",
-    "TH": "nakhonphanom"
-  },
   "difficulty": {
     "LA": null,
     "TH": null

@@ -4,16 +4,16 @@
     "KH",
     "TH"
   ],
+  "checkpoints": {
+    "KH": "kohkong",
+    "TH": "hatlek"
+  },
   "transport_style": {
     "KH": "transfer",
     "TH": "transfer"
   },
   "status": "closed",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "kohkong",
-    "TH": "hatlek"
-  },
   "difficulty": {
     "KH": null,
     "TH": null

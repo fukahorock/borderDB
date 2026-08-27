@@ -4,16 +4,16 @@
     "LA",
     "TH"
   ],
+  "checkpoints": {
+    "LA": "huayxai",
+    "TH": "chiangkhong"
+  },
   "transport_style": {
     "LA": null,
     "TH": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "huayxai",
-    "TH": "chiangkhong"
-  },
   "difficulty": {
     "LA": null,
     "TH": null

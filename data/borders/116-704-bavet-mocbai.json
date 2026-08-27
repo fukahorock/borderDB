@@ -4,26 +4,26 @@
     "KH",
     "VN"
   ],
+  "checkpoints": {
+    "KH": "bavet",
+    "VN": "mocbai"
+  },
   "transport_style": {
     "KH": "through",
     "VN": "through"
   },
   "status": "open",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "bavet",
-    "VN": "mocbai"
-  },
   "difficulty": {
-    "KH": null,
-    "VN": null
+    "KH": 1,
+    "VN": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KH": "メジャー。どちらでもOK",
-        "VN": "メジャー。ホーチミンから路線バス703番or直通バス。どちらでもOK"
+        "KH": "プノンペンからホーチミンへの直通バスあり。\n途中の街に用がないなら直通バスが楽。",
+        "VN": "各種バス会社から直通バスあり。だいたい午前中に集中している。\nローカルバスを乗り継ぐ場合は、9月23日公園のバス停から703番バスで移動可能。\nタイニン市からのローカルバスもある。\nただしカンボジア側からの先はタクシーか、直通バスに途中で乗ることになるので、かなり節約したいとかでなければ素直に直通バスがオススメ。"
       },
       "trivia": "",
       "status_note": ""

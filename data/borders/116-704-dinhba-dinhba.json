@@ -4,16 +4,16 @@
     "KH",
     "VN"
   ],
+  "checkpoints": {
+    "KH": "dinhba",
+    "VN": "dinhba"
+  },
   "transport_style": {
     "KH": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "dinhba",
-    "VN": "dinhba"
-  },
   "difficulty": {
     "KH": null,
     "VN": null

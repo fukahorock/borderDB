@@ -4,16 +4,16 @@
     "LA",
     "TH"
   ],
+  "checkpoints": {
+    "LA": "pangmon",
+    "TH": "banhuak"
+  },
   "transport_style": {
     "LA": null,
     "TH": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "pangmon",
-    "TH": "banhuak"
-  },
   "difficulty": {
     "LA": null,
     "TH": null

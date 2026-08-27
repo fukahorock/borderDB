@@ -4,16 +4,16 @@
     "KH",
     "VN"
   ],
+  "checkpoints": {
+    "KH": "vinhxuong",
+    "VN": "kaamsamnor"
+  },
   "transport_style": {
     "KH": "through",
     "VN": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "vinhxuong",
-    "VN": "kaamsamnor"
-  },
   "difficulty": {
     "KH": null,
     "VN": null

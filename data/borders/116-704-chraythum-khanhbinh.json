@@ -4,16 +4,16 @@
     "KH",
     "VN"
   ],
+  "checkpoints": {
+    "KH": "chraythum",
+    "VN": "khanhbinh"
+  },
   "transport_style": {
     "KH": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "chraythum",
-    "VN": "khanhbinh"
-  },
   "difficulty": {
     "KH": null,
     "VN": null

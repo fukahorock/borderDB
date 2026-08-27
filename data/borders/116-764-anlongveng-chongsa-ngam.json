@@ -4,16 +4,16 @@
     "KH",
     "TH"
   ],
+  "checkpoints": {
+    "KH": "anlongveng",
+    "TH": "chongsa-ngam"
+  },
   "transport_style": {
     "KH": null,
     "TH": "no_public_transport"
   },
   "status": "closed",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "anlongveng",
-    "TH": "chongsa-ngam"
-  },
   "difficulty": {
     "KH": null,
     "TH": null

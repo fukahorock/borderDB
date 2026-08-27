@@ -4,16 +4,16 @@
     "KH",
     "VN"
   ],
+  "checkpoints": {
+    "KH": "oyadav",
+    "VN": "lethanh"
+  },
   "transport_style": {
     "KH": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "oyadav",
-    "VN": "lethanh"
-  },
   "difficulty": {
     "KH": null,
     "VN": null

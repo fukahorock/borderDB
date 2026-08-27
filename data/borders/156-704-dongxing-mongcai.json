@@ -4,16 +4,16 @@
     "CN",
     "VN"
   ],
+  "checkpoints": {
+    "CN": "dongxing",
+    "VN": "mongcai"
+  },
   "transport_style": {
     "CN": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "CN": "dongxing",
-    "VN": "mongcai"
-  },
   "difficulty": {
     "CN": null,
     "VN": null

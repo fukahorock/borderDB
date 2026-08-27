@@ -8,12 +8,5 @@
     "local": [],
     "ja": "ピョンテク港",
     "en": "Pyeongtaek Port"
-  },
-  "_source": "国境管理_-_シート3.csv（港メモ行）",
-  "_memo": "威海・煙台・連雲港・日照等（中国5都市）行き",
-  "_needs_review": [
-    "coords",
-    "visa_on_arrival",
-    "name.local"
-  ]
+  }
 }

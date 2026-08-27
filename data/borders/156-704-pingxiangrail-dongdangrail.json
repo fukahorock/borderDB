@@ -4,16 +4,16 @@
     "CN",
     "VN"
   ],
+  "checkpoints": {
+    "CN": "pingxiangrail",
+    "VN": "dongdang"
+  },
   "transport_style": {
     "CN": "through",
     "VN": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "CN": "pingxiangrail",
-    "VN": "dongdangrail"
-  },
   "difficulty": {
     "CN": null,
     "VN": null

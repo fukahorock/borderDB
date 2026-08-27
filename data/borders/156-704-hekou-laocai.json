@@ -4,16 +4,16 @@
     "CN",
     "VN"
   ],
+  "checkpoints": {
+    "CN": "hekou",
+    "VN": "laocai"
+  },
   "transport_style": {
     "CN": "no_public_transport",
     "VN": "no_public_transport"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "CN": "hekou",
-    "VN": "laocai"
-  },
   "difficulty": {
     "CN": null,
     "VN": null

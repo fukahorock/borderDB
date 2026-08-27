@@ -4,16 +4,16 @@
     "ID",
     "TL"
   ],
+  "checkpoints": {
+    "ID": "salele",
+    "TL": "suai"
+  },
   "transport_style": {
     "ID": null,
     "TL": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "ID": "salele",
-    "TL": "suai"
-  },
   "difficulty": {
     "ID": null,
     "TL": null

@@ -4,16 +4,16 @@
     "ID",
     "MY"
   ],
+  "checkpoints": {
+    "ID": "badau",
+    "MY": "lubokantu"
+  },
   "transport_style": {
     "ID": "no_public_transport",
     "MY": "no_public_transport"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "ID": "badau",
-    "MY": "lubokantu"
-  },
   "difficulty": {
     "ID": null,
     "MY": null

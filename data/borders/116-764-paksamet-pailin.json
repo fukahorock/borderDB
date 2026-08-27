@@ -4,16 +4,16 @@
     "KH",
     "TH"
   ],
+  "checkpoints": {
+    "KH": "paksamet",
+    "TH": "pailin"
+  },
   "transport_style": {
     "KH": null,
     "TH": null
   },
   "status": "closed",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "paksamet",
-    "TH": "pailin"
-  },
   "difficulty": {
     "KH": null,
     "TH": null

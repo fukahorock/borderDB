@@ -4,16 +4,16 @@
     "LA",
     "VN"
   ],
+  "checkpoints": {
+    "LA": "namheuang",
+    "VN": "chalo"
+  },
   "transport_style": {
     "LA": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "namheuang",
-    "VN": "chalo"
-  },
   "difficulty": {
     "LA": null,
     "VN": null

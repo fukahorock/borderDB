@@ -4,16 +4,16 @@
     "MY",
     "TH"
   ],
+  "checkpoints": {
+    "MY": "buketa",
+    "TH": "bukitbunga"
+  },
   "transport_style": {
     "MY": null,
     "TH": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "MY": "buketa",
-    "TH": "bukitbunga"
-  },
   "difficulty": {
     "MY": null,
     "TH": null

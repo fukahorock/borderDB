@@ -4,16 +4,16 @@
     "MY",
     "TH"
   ],
+  "checkpoints": {
+    "MY": "rantaupanjang",
+    "TH": "sungaikolok"
+  },
   "transport_style": {
     "MY": null,
     "TH": null
   },
   "status": "open",
   "status_updated": "2018-03",
-  "checkpoints": {
-    "MY": "rantaupanjang",
-    "TH": "sungaikolok"
-  },
   "difficulty": {
     "MY": null,
     "TH": null

@@ -4,16 +4,16 @@
     "MY",
     "TH"
   ],
+  "checkpoints": {
+    "MY": "pengkalankubor",
+    "TH": "takbai"
+  },
   "transport_style": {
     "MY": null,
     "TH": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "MY": "pengkalankubor",
-    "TH": "takbai"
-  },
   "difficulty": {
     "MY": null,
     "TH": null

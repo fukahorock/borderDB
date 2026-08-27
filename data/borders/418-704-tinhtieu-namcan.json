@@ -4,16 +4,16 @@
     "LA",
     "VN"
   ],
+  "checkpoints": {
+    "LA": "tinhtieu",
+    "VN": "namcan"
+  },
   "transport_style": {
     "LA": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "tinhtieu",
-    "VN": "namcan"
-  },
   "difficulty": {
     "LA": null,
     "VN": null

@@ -4,16 +4,16 @@
     "LA",
     "VN"
   ],
+  "checkpoints": {
+    "LA": "lalay",
+    "VN": "lalai"
+  },
   "transport_style": {
     "LA": "through",
     "VN": null
   },
   "status": "open",
   "status_updated": "2026-03",
-  "checkpoints": {
-    "LA": "lalay",
-    "VN": "lalai"
-  },
   "difficulty": {
     "LA": 2,
     "VN": null

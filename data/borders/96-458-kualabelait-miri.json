@@ -4,16 +4,16 @@
     "BN",
     "MY"
   ],
+  "checkpoints": {
+    "BN": "kualabelait",
+    "MY": "miri"
+  },
   "transport_style": {
     "BN": null,
     "MY": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "BN": "kualabelait",
-    "MY": "miri"
-  },
   "difficulty": {
     "BN": null,
     "MY": null

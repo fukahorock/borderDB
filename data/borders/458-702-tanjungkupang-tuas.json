@@ -1,29 +1,29 @@
 {
-  "id": "458-764-bukitbunga-buketa",
+  "id": "458-702-tanjungkupang-tuas",
   "countries": [
     "MY",
-    "TH"
+    "SG"
   ],
   "checkpoints": {
-    "MY": "bukitbunga",
-    "TH": "buketa"
+    "MY": "tanjungkupang",
+    "SG": "tuas"
   },
   "transport_style": {
     "MY": null,
-    "TH": null
+    "SG": null
   },
-  "status": "needs_verification",
-  "status_updated": "",
+  "status": "open",
+  "status_updated": "2018-03",
   "difficulty": {
     "MY": null,
-    "TH": null
+    "SG": null
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
         "MY": "",
-        "TH": "MY→TH推奨。深南部。6:00-19:00"
+        "SG": "クアラルンプールからバス"
       },
       "trivia": "",
       "status_note": ""
@@ -31,7 +31,7 @@
     "en": {
       "hint_from": {
         "MY": "",
-        "TH": ""
+        "SG": ""
       },
       "trivia": "",
       "status_note": ""

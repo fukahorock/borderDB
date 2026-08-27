@@ -1,29 +1,29 @@
 {
-  "id": "418-704-laobao-dansavanh",
+  "id": "418-704-dansavanh-laobao",
   "countries": [
     "LA",
     "VN"
   ],
+  "checkpoints": {
+    "LA": "dansavanh",
+    "VN": "laobao"
+  },
   "transport_style": {
     "LA": null,
-    "VN": null
+    "VN": "through"
   },
   "status": "open",
   "status_updated": "2026-03",
-  "checkpoints": {
-    "LA": "laobao",
-    "VN": "dansavanh"
-  },
   "difficulty": {
     "LA": null,
-    "VN": null
+    "VN": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "LA": "ダナンorフエから。xenoで下車",
-        "VN": ""
+        "LA": "",
+        "VN": "ダナンやフエ、ドンハから直通バスあり。\nサワンナケートの手前のXENOからターケークやビエンチャン方面へ行く。\n\nビザラン用にラオバオまで行くバスあり。デーンサワンから乗り継ぎできるかは不明。"
       },
       "trivia": "",
       "status_note": ""

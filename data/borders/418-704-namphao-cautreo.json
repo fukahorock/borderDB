@@ -4,16 +4,16 @@
     "LA",
     "VN"
   ],
+  "checkpoints": {
+    "LA": "namphao",
+    "VN": "cautreo"
+  },
   "transport_style": {
     "LA": "through",
     "VN": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "namphao",
-    "VN": "cautreo"
-  },
   "difficulty": {
     "LA": null,
     "VN": null

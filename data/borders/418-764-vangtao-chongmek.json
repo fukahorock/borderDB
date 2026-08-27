@@ -4,16 +4,16 @@
     "LA",
     "TH"
   ],
+  "checkpoints": {
+    "LA": "vangtao",
+    "TH": "chongmek"
+  },
   "transport_style": {
     "LA": "through",
     "TH": "through"
   },
   "status": "open",
   "status_updated": "2026-02",
-  "checkpoints": {
-    "LA": "vangtao",
-    "TH": "chongmek"
-  },
   "difficulty": {
     "LA": 1,
     "TH": 1

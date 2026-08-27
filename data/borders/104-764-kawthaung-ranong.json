@@ -4,16 +4,16 @@
     "MM",
     "TH"
   ],
+  "checkpoints": {
+    "MM": "kawthaung",
+    "TH": "ranong"
+  },
   "transport_style": {
     "MM": null,
     "TH": null
   },
   "status": "open",
   "status_updated": "",
-  "checkpoints": {
-    "MM": "kawthaung",
-    "TH": "ranong"
-  },
   "difficulty": {
     "MM": null,
     "TH": null

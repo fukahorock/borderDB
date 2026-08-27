@@ -4,16 +4,16 @@
     "MM",
     "TH"
   ],
+  "checkpoints": {
+    "MM": "myawaddy",
+    "TH": "maesot"
+  },
   "transport_style": {
     "MM": "no_public_transport",
     "TH": "no_public_transport"
   },
   "status": "closed",
   "status_updated": "",
-  "checkpoints": {
-    "MM": "myawaddy",
-    "TH": "maesot"
-  },
   "difficulty": {
     "MM": null,
     "TH": null

@@ -4,16 +4,16 @@
     "MY",
     "TH"
   ],
+  "checkpoints": {
+    "MY": "wangkelian",
+    "TH": "wangprachan"
+  },
   "transport_style": {
     "MY": null,
     "TH": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "MY": "wangkelian",
-    "TH": "wangprachan"
-  },
   "difficulty": {
     "MY": null,
     "TH": null

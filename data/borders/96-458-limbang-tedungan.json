@@ -4,16 +4,16 @@
     "BN",
     "MY"
   ],
+  "checkpoints": {
+    "BN": "limbang",
+    "MY": "tedungan"
+  },
   "transport_style": {
     "BN": null,
     "MY": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "BN": "limbang",
-    "MY": "tedungan"
-  },
   "difficulty": {
     "BN": null,
     "MY": null

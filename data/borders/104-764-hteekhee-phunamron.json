@@ -4,16 +4,16 @@
     "MM",
     "TH"
   ],
+  "checkpoints": {
+    "MM": "hteekhee",
+    "TH": "phunamron"
+  },
   "transport_style": {
     "MM": null,
     "TH": null
   },
   "status": "closed",
   "status_updated": "",
-  "checkpoints": {
-    "MM": "hteekhee",
-    "TH": "phunamron"
-  },
   "difficulty": {
     "MM": null,
     "TH": null

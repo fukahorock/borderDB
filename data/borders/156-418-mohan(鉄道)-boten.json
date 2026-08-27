@@ -1,19 +1,19 @@
 {
-  "id": "156-418-mohanrail-botenrail",
+  "id": "156-418-mohan(鉄道)-boten",
   "countries": [
     "CN",
     "LA"
   ],
+  "checkpoints": {
+    "CN": "mohanrail",
+    "LA": "botenrail"
+  },
   "transport_style": {
     "CN": "through",
     "LA": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "CN": "mohanrail",
-    "LA": "botenrail"
-  },
   "difficulty": {
     "CN": null,
     "LA": null

@@ -4,25 +4,25 @@
     "LA",
     "TH"
   ],
-  "transport_style": {
-    "LA": null,
-    "TH": null
-  },
-  "status": "open",
-  "status_updated": "2026-03",
   "checkpoints": {
     "LA": "savannakhet",
     "TH": "mukdahan"
   },
+  "transport_style": {
+    "LA": "through",
+    "TH": null
+  },
+  "status": "open",
+  "status_updated": "2026-03",
   "difficulty": {
-    "LA": null,
+    "LA": 1,
     "TH": null
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "LA": "サワンナケートからバスで",
+        "LA": "サワンナケートバスターミナルからムクダハンバスターミナルまで行く直通バスあり。\nそのままタイ国内行きのバスに乗り換え可能。",
         "TH": ""
       },
       "trivia": "",

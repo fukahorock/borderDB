@@ -8,12 +8,5 @@
     "local": [],
     "ja": "比田勝港",
     "en": "Hitakatsu Port"
-  },
-  "_source": "国境管理_-_シート3.csv（港メモ行）",
-  "_memo": "釜山（韓国）行き。対馬北部、約1時間15分",
-  "_needs_review": [
-    "coords",
-    "visa_on_arrival",
-    "name.local"
-  ]
+  }
 }

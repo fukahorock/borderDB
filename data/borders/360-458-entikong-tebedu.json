@@ -4,16 +4,16 @@
     "ID",
     "MY"
   ],
+  "checkpoints": {
+    "ID": "entikong",
+    "MY": "tebedu"
+  },
   "transport_style": {
     "ID": "through",
     "MY": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "ID": "entikong",
-    "MY": "tebedu"
-  },
   "difficulty": {
     "ID": null,
     "MY": null

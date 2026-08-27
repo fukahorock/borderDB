@@ -4,16 +4,16 @@
     "LA",
     "VN"
   ],
+  "checkpoints": {
+    "LA": "ngochoi",
+    "VN": "boy"
+  },
   "transport_style": {
     "LA": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "ngochoi",
-    "VN": "boy"
-  },
   "difficulty": {
     "LA": null,
     "VN": null

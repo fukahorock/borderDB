@@ -4,16 +4,16 @@
     "KH",
     "VN"
   ],
+  "checkpoints": {
+    "KH": "trapeangsre",
+    "VN": "locninh"
+  },
   "transport_style": {
     "KH": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "trapeangsre",
-    "VN": "locninh"
-  },
   "difficulty": {
     "KH": null,
     "VN": null

@@ -9,29 +9,29 @@
     "KR": "busan"
   },
   "transport_style": {
-    "JP": null,
-    "KR": null
+    "JP": "through",
+    "KR": "through"
   },
   "status": "open",
   "status_updated": "",
   "difficulty": {
-    "JP": null,
-    "KR": null
+    "JP": 1,
+    "KR": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "JP": "釜山（韓国）行き。JR九州高速船ビートル等、約3時間",
-        "KR": "博多、下関、大阪、対馬（比田勝・厳原）（日本）行き。IN限定"
+        "JP": "カメリアラインなどが就航。博多港発の場合は12:30頃出発して夜到着。\nビートルは運行中止になりました。",
+        "KR": "カメリアラインが就航。\n夜行便で早朝に博多港着。\n\n入出国審査の関係でチェックイン時間早めなので要注意。"
       },
       "trivia": "",
       "status_note": ""
     },
     "en": {
       "hint_from": {
-        "KR": "",
-        "JP": ""
+        "JP": "",
+        "KR": ""
       },
       "trivia": "",
       "status_note": ""

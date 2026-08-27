@@ -4,16 +4,16 @@
     "CN",
     "VN"
   ],
+  "checkpoints": {
+    "CN": "tianbao",
+    "VN": "thanhthuy"
+  },
   "transport_style": {
     "CN": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "CN": "tianbao",
-    "VN": "thanhthuy"
-  },
   "difficulty": {
     "CN": null,
     "VN": null

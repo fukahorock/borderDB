@@ -8,12 +8,5 @@
     "local": [],
     "ja": "博多港",
     "en": "Hakata Port"
-  },
-  "_source": "国境管理_-_シート3.csv（港メモ行）",
-  "_memo": "釜山（韓国）行き。JR九州高速船ビートル等、約3時間",
-  "_needs_review": [
-    "coords",
-    "visa_on_arrival",
-    "name.local"
-  ]
+  }
 }

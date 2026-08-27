@@ -4,26 +4,26 @@
     "KH",
     "VN"
   ],
-  "transport_style": {
-    "KH": null,
-    "VN": null
-  },
-  "status": "open",
-  "status_updated": "2025-03",
   "checkpoints": {
     "KH": "phnomden",
     "VN": "tinhbien"
   },
+  "transport_style": {
+    "KH": null,
+    "VN": "no_public_transport"
+  },
+  "status": "open",
+  "status_updated": "2025-03",
   "difficulty": {
     "KH": null,
-    "VN": null
+    "VN": 3
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KH": "チャウドックからバイタクで、国境からはタクシー",
-        "VN": ""
+        "KH": "",
+        "VN": "チャウドック市街からバイクタクシーで国境まで行き乗り換え。\nローカルバスはあるらしいが、終点が国境ではなく離れたバス車庫らしいので、バイクタクシーが無難か。\n\nカンボジア側の交通が皆無で、交通量が少ないので最悪タクシーに乗る羽目になる。\nタクシーも少ないのでぼったくり率高し。"
       },
       "trivia": "",
       "status_note": ""

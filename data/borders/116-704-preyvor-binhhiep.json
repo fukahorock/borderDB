@@ -4,16 +4,16 @@
     "KH",
     "VN"
   ],
+  "checkpoints": {
+    "KH": "preyvor",
+    "VN": "binhhiep"
+  },
   "transport_style": {
     "KH": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "preyvor",
-    "VN": "binhhiep"
-  },
   "difficulty": {
     "KH": null,
     "VN": null

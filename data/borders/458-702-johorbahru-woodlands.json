@@ -1,19 +1,19 @@
 {
-  "id": "458-702-tuas-secondlink",
+  "id": "458-702-johorbahru-woodlands",
   "countries": [
     "MY",
     "SG"
   ],
+  "checkpoints": {
+    "MY": "johorbahru",
+    "SG": "woodlands"
+  },
   "transport_style": {
-    "MY": null,
-    "SG": null
+    "MY": "through",
+    "SG": "through"
   },
   "status": "open",
-  "status_updated": "2018-03",
-  "checkpoints": {
-    "MY": "tuas",
-    "SG": "secondlink"
-  },
+  "status_updated": "",
   "difficulty": {
     "MY": null,
     "SG": null
@@ -22,8 +22,8 @@
   "i18n": {
     "ja": {
       "hint_from": {
-        "MY": "",
-        "SG": "クアラルンプールからバス"
+        "MY": "どちらでもOK。世界最多往来の国境。MRTウッドランズ駅/JBセントラル直結",
+        "SG": "どちらでもOK。世界最多往来の国境。MRTウッドランズ駅/JBセントラル直結"
       },
       "trivia": "",
       "status_note": ""

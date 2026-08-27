@@ -4,16 +4,16 @@
     "LA",
     "TH"
   ],
+  "checkpoints": {
+    "LA": "phoudou",
+    "TH": "phudoo"
+  },
   "transport_style": {
     "LA": null,
     "TH": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "phoudou",
-    "TH": "phudoo"
-  },
   "difficulty": {
     "LA": null,
     "TH": null

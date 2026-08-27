@@ -4,16 +4,16 @@
     "KH",
     "TH"
   ],
+  "checkpoints": {
+    "KH": "aranyaprathet",
+    "TH": "poipet"
+  },
   "transport_style": {
     "KH": null,
     "TH": null
   },
   "status": "closed",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "aranyaprathet",
-    "TH": "poipet"
-  },
   "difficulty": {
     "KH": null,
     "TH": null

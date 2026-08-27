@@ -4,16 +4,16 @@
     "LA",
     "TH"
   ],
+  "checkpoints": {
+    "LA": "kaenthao",
+    "TH": "thali"
+  },
   "transport_style": {
     "LA": null,
     "TH": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "kaenthao",
-    "TH": "thali"
-  },
   "difficulty": {
     "LA": null,
     "TH": null

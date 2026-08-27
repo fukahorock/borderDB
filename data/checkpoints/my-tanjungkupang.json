@@ -1,5 +1,5 @@
 {
-  "slug": "tuas",
+  "slug": "tanjungkupang",
   "country": "MY",
   "coords": [
     1.3527889,
@@ -9,9 +9,9 @@
   "visa_on_arrival": null,
   "name": {
     "local": [
-      "Tuas Second Link"
+      "Tanjung Kupang Check Point"
     ],
-    "ja": "セカンドリンク",
-    "en": "Second Link"
+    "ja": "タンジュンクパン（マレーシア・シンガポール・セカンドリンク）",
+    "en": "Tanjung Kupang Check Point（Malaysia–Singapore Second Link）"
   }
 }

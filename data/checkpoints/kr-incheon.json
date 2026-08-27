@@ -8,12 +8,5 @@
     "local": [],
     "ja": "仁川港",
     "en": "Incheon Port"
-  },
-  "_source": "国境管理_-_シート3.csv（港メモ行）",
-  "_memo": "丹東・大連・営口・秦皇島・煙台・石島・天津・威海・青島・連雲港（中国）行き。中国各地行きが集結するハブ港",
-  "_needs_review": [
-    "coords",
-    "visa_on_arrival",
-    "name.local"
-  ]
+  }
 }

@@ -4,16 +4,16 @@
     "ID",
     "MY"
   ],
+  "checkpoints": {
+    "ID": "nunukan",
+    "MY": "tawau"
+  },
   "transport_style": {
     "ID": "through",
     "MY": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "ID": "nunukan",
-    "MY": "tawau"
-  },
   "difficulty": {
     "ID": null,
     "MY": null

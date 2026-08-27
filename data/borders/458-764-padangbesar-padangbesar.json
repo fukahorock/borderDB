@@ -4,16 +4,16 @@
     "MY",
     "TH"
   ],
+  "checkpoints": {
+    "MY": "padangbesar",
+    "TH": "padangbesar"
+  },
   "transport_style": {
     "MY": "through",
     "TH": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "MY": "padangbesar",
-    "TH": "padangbesar"
-  },
   "difficulty": {
     "MY": null,
     "TH": null

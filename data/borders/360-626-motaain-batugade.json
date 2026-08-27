@@ -4,16 +4,16 @@
     "ID",
     "TL"
   ],
+  "checkpoints": {
+    "ID": "motaain",
+    "TL": "batugade"
+  },
   "transport_style": {
     "ID": null,
     "TL": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "ID": "motaain",
-    "TL": "batugade"
-  },
   "difficulty": {
     "ID": null,
     "TL": null

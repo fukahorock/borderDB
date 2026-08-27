@@ -4,16 +4,16 @@
     "LA",
     "TH"
   ],
+  "checkpoints": {
+    "LA": "thanalaeng",
+    "TH": "nongkhai"
+  },
   "transport_style": {
     "LA": "through",
     "TH": "through"
   },
   "status": "open",
   "status_updated": "2025-08",
-  "checkpoints": {
-    "LA": "thanalaeng",
-    "TH": "nongkhai"
-  },
   "difficulty": {
     "LA": null,
     "TH": null

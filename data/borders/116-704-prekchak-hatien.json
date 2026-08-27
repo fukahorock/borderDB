@@ -4,16 +4,16 @@
     "KH",
     "VN"
   ],
+  "checkpoints": {
+    "KH": "prekchak",
+    "VN": "hatien"
+  },
   "transport_style": {
     "KH": null,
     "VN": null
   },
   "status": "open",
   "status_updated": "2025-03",
-  "checkpoints": {
-    "KH": "prekchak",
-    "VN": "hatien"
-  },
   "difficulty": {
     "KH": null,
     "VN": null

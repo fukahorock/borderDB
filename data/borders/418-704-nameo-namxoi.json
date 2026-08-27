@@ -4,16 +4,16 @@
     "LA",
     "VN"
   ],
+  "checkpoints": {
+    "LA": "nameo",
+    "VN": "namxoi"
+  },
   "transport_style": {
     "LA": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "nameo",
-    "VN": "namxoi"
-  },
   "difficulty": {
     "LA": null,
     "VN": null

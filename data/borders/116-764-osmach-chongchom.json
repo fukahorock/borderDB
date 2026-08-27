@@ -4,16 +4,16 @@
     "KH",
     "TH"
   ],
+  "checkpoints": {
+    "KH": "osmach",
+    "TH": "chongchom"
+  },
   "transport_style": {
     "KH": null,
     "TH": null
   },
   "status": "closed",
   "status_updated": "",
-  "checkpoints": {
-    "KH": "osmach",
-    "TH": "chongchom"
-  },
   "difficulty": {
     "KH": null,
     "TH": null

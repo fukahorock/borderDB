@@ -4,16 +4,16 @@
     "LA",
     "VN"
   ],
+  "checkpoints": {
+    "LA": "taytrang",
+    "VN": "sophun"
+  },
   "transport_style": {
     "LA": null,
     "VN": null
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "LA": "taytrang",
-    "VN": "sophun"
-  },
   "difficulty": {
     "LA": null,
     "VN": null

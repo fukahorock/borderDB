@@ -1,0 +1,40 @@
+{
+  "id": "116-704-trapeangphlong-xamat",
+  "countries": [
+    "KH",
+    "VN"
+  ],
+  "checkpoints": {
+    "KH": "xamat",
+    "VN": "trapeangphlong"
+  },
+  "transport_style": {
+    "KH": null,
+    "VN": "transfer"
+  },
+  "status": "open",
+  "status_updated": "2025-08",
+  "difficulty": {
+    "KH": null,
+    "VN": 3
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "KH": "",
+        "VN": "タイニンバスターミナルから国境までのローカルバスあり。\nカンボジア側の公共交通はないので、タクシーかバイタクを拾うのが必須。\n\n国道7号線と合流する三叉路までいけば、コンポンチャム方面までの乗合バスや、バンルンやモンドルキリまでいくバスが拾える。"
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "KH": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

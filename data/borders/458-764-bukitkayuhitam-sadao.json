@@ -4,16 +4,16 @@
     "MY",
     "TH"
   ],
+  "checkpoints": {
+    "MY": "bukitkayuhitam",
+    "TH": "sadao"
+  },
   "transport_style": {
     "MY": "through",
     "TH": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "MY": "bukitkayuhitam",
-    "TH": "sadao"
-  },
   "difficulty": {
     "MY": null,
     "TH": null

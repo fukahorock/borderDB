@@ -4,16 +4,16 @@
     "CN",
     "VN"
   ],
+  "checkpoints": {
+    "CN": "pingxiang",
+    "VN": "huunghi"
+  },
   "transport_style": {
     "CN": "through",
     "VN": "through"
   },
   "status": "needs_verification",
   "status_updated": "",
-  "checkpoints": {
-    "CN": "pingxiang",
-    "VN": "huunghi"
-  },
   "difficulty": {
     "CN": null,
     "VN": null
