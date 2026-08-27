@@ -185,7 +185,7 @@ export default async function ResultsPage({
 
       <section className="border-t border-slate-200 px-4 py-5 dark:border-slate-800">
         <Link
-          href="#"
+          href={`/${locale}/contribute`}
           className="mx-auto flex max-w-3xl items-center justify-between rounded-md bg-emerald-50 px-4 py-3 text-sm text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300"
         >
           <span>この検索結果にない国境の情報をお持ちの方はこちら</span>

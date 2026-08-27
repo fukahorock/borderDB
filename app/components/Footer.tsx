@@ -8,7 +8,7 @@ export function Footer({ locale }: { locale: string }) {
         <nav className="flex flex-wrap gap-4">
           <Link href={`/${locale}/about`}>このサイトについて</Link>
           <Link href={`/${locale}/privacy`}>プライバシーポリシー</Link>
-          <a href="#">情報募集中</a>
+          <Link href={`/${locale}/contribute`}>情報募集中</Link>
         </nav>
         <p className="mt-4 text-xs text-slate-400 dark:text-slate-500">
           本サイトの情報は目安です。渡航前に必ず外務省海外安全ホームページ・各国大使館等で最新情報をご確認ください。

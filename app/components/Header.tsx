@@ -73,13 +73,13 @@ export function Header({ locale, originCountries }: HeaderProps) {
             >
               プライバシーポリシー
             </Link>
-            <a
-              href="#"
+            <Link
+              href={`/${locale}/contribute`}
               className="block rounded-md px-3 py-2 text-sm hover:bg-slate-50 dark:hover:bg-slate-700"
               onClick={() => setOpen(false)}
             >
               情報募集中
-            </a>
+            </Link>
 
             <div className="my-2 border-t border-slate-100 dark:border-slate-700" />
 
