@@ -16,6 +16,7 @@ import { getAllDirections, type Direction } from "@/lib/borders";
 import type { CheckpointData } from "@/lib/checkpoints";
 import { OGP_IMAGE, SITE_URL } from "@/lib/seo";
 import { buildUpdateRequestFormUrl } from "@/lib/links";
+import { AD_SLOTS_ENABLED } from "@/lib/ads";
 
 function parseFromTo(fromTo: string): { from: string; to: string } | null {
   if (fromTo.length !== 8 || fromTo.slice(2, 6) !== "-to-") return null;
@@ -202,9 +203,11 @@ export default async function DetailPage({
         </a>
       </div>
 
-      <div className="mb-6 flex items-center justify-center rounded border border-dashed border-slate-300 py-8 text-sm text-slate-400 dark:border-slate-700 dark:text-slate-500">
-        広告枠
-      </div>
+      {AD_SLOTS_ENABLED && (
+        <div className="mb-6 flex items-center justify-center rounded border border-dashed border-slate-300 py-8 text-sm text-slate-400 dark:border-slate-700 dark:text-slate-500">
+          広告枠
+        </div>
+      )}
 
       {/* 4. 方向切り替えタブ／リンク */}
       {/* replace を使い、タブ切り替えを履歴に積まない（ブラウザバックで検索結果に一発で戻れるように） */}

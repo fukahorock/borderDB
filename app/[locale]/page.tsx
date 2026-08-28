@@ -4,6 +4,7 @@ import { RandomBorders, type RandomEntry } from "@/app/components/RandomBorders"
 import { countryLabel } from "@/lib/countries";
 import { checkpointDisplayName, freshness } from "@/lib/format";
 import { getAllDirections, getFromToMap, getJoinedBorders, sortByRecentlyUpdated } from "@/lib/borders";
+import { AD_SLOTS_ENABLED } from "@/lib/ads";
 
 // ルートlayout.tsxのdefault title/description/OGPをそのまま使う（トップページ用の上書きは不要）
 
@@ -46,11 +47,13 @@ export default async function TopPage({ params }: PageProps<"/[locale]">) {
         </div>
       </section>
 
-      <section className="border-b border-slate-200 px-4 py-6 dark:border-slate-800">
-        <div className="mx-auto flex max-w-3xl items-center justify-center rounded border border-dashed border-slate-300 py-8 text-sm text-slate-400 dark:border-slate-700 dark:text-slate-500">
-          広告枠
-        </div>
-      </section>
+      {AD_SLOTS_ENABLED && (
+        <section className="border-b border-slate-200 px-4 py-6 dark:border-slate-800">
+          <div className="mx-auto flex max-w-3xl items-center justify-center rounded border border-dashed border-slate-300 py-8 text-sm text-slate-400 dark:border-slate-700 dark:text-slate-500">
+            広告枠
+          </div>
+        </section>
+      )}
 
       <section className="border-b border-slate-200 px-4 py-8 dark:border-slate-800">
         <h2 className="mx-auto mb-3 max-w-5xl text-sm font-semibold text-slate-500 dark:text-slate-400">
