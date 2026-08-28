@@ -14,7 +14,7 @@ export function Footer({ locale }: { locale: string }) {
           本サイトの情報は目安です。渡航前に必ず外務省海外安全ホームページ・各国大使館等で最新情報をご確認ください。
         </p>
         <p className="mt-2 text-xs text-slate-400 dark:text-slate-500">
-          &copy; {new Date().getFullYear()} 国境データベース
+          &copy; {new Date().getFullYear()} Yu-ki Fukahori
         </p>
       </div>
     </footer>

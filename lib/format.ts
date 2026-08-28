@@ -48,6 +48,38 @@ export function statusLabelJa(status: string): string {
   return STATUS_LABEL_JA[status] ?? status;
 }
 
+const STATUS_BADGE_CLASSES: Record<string, string> = {
+  open: "bg-emerald-100 text-emerald-800 border-emerald-300 dark:bg-emerald-900/30 dark:text-emerald-300 dark:border-emerald-700",
+  closed:
+    "bg-red-100 text-red-800 border-red-300 dark:bg-red-900/30 dark:text-red-300 dark:border-red-700",
+  needs_verification:
+    "bg-amber-100 text-amber-800 border-amber-300 dark:bg-amber-900/30 dark:text-amber-300 dark:border-amber-700",
+};
+
+/** ステータスバッジの色分け（open=緑／closed=赤／needs_verification=黄）。一目で通行可否がわかるようにする。 */
+export function statusBadgeClasses(status: string): string {
+  return (
+    STATUS_BADGE_CLASSES[status] ??
+    "bg-slate-100 text-slate-700 border-slate-300 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-600"
+  );
+}
+
+const FRESHNESS_BADGE_CLASSES: Record<Freshness, string> = {
+  recent:
+    "bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-900/20 dark:text-emerald-400 dark:border-emerald-800",
+  normal:
+    "bg-slate-100 text-slate-600 border-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-700",
+  stale:
+    "bg-amber-100 text-amber-800 border-amber-300 dark:bg-amber-900/30 dark:text-amber-300 dark:border-amber-700",
+  unknown:
+    "bg-slate-100 text-slate-500 border-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-700",
+};
+
+/** 鮮度バッジの色分け。staleは警告として強調する。 */
+export function freshnessBadgeClasses(level: Freshness): string {
+  return FRESHNESS_BADGE_CLASSES[level];
+}
+
 export function visaLabel(visaOnArrival: boolean | null): string {
   if (visaOnArrival === null) return "要確認";
   return visaOnArrival ? "取得可能" : "事前取得が必要";
