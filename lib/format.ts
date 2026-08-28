@@ -49,30 +49,24 @@ export function statusLabelJa(status: string): string {
 }
 
 const STATUS_BADGE_CLASSES: Record<string, string> = {
-  open: "bg-emerald-100 text-emerald-800 border-emerald-300 dark:bg-emerald-900/30 dark:text-emerald-300 dark:border-emerald-700",
-  closed:
-    "bg-red-100 text-red-800 border-red-300 dark:bg-red-900/30 dark:text-red-300 dark:border-red-700",
-  needs_verification:
-    "bg-amber-100 text-amber-800 border-amber-300 dark:bg-amber-900/30 dark:text-amber-300 dark:border-amber-700",
+  open: "border-emerald-500 text-emerald-700 dark:border-emerald-400 dark:text-emerald-400",
+  closed: "border-red-500 text-red-700 dark:border-red-400 dark:text-red-400",
+  needs_verification: "border-amber-500 text-amber-700 dark:border-amber-400 dark:text-amber-400",
 };
 
-/** ステータスバッジの色分け（open=緑／closed=赤／needs_verification=黄）。一目で通行可否がわかるようにする。 */
+/** ステータスバッジの色分け（open=緑／closed=赤／needs_verification=黄）。背景は塗らず枠線・文字色のみで表現する（ダークモードでの視認性優先）。 */
 export function statusBadgeClasses(status: string): string {
   return (
     STATUS_BADGE_CLASSES[status] ??
-    "bg-slate-100 text-slate-700 border-slate-300 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-600"
+    "border-slate-300 text-slate-700 dark:border-slate-600 dark:text-slate-300"
   );
 }
 
 const FRESHNESS_BADGE_CLASSES: Record<Freshness, string> = {
-  recent:
-    "bg-emerald-50 text-emerald-700 border-emerald-200 dark:bg-emerald-900/20 dark:text-emerald-400 dark:border-emerald-800",
-  normal:
-    "bg-slate-100 text-slate-600 border-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-700",
-  stale:
-    "bg-amber-100 text-amber-800 border-amber-300 dark:bg-amber-900/30 dark:text-amber-300 dark:border-amber-700",
-  unknown:
-    "bg-slate-100 text-slate-500 border-slate-200 dark:bg-slate-800 dark:text-slate-400 dark:border-slate-700",
+  recent: "border-emerald-400 text-emerald-700 dark:border-emerald-500 dark:text-emerald-400",
+  normal: "border-slate-300 text-slate-600 dark:border-slate-600 dark:text-slate-300",
+  stale: "border-amber-500 text-amber-700 dark:border-amber-400 dark:text-amber-300",
+  unknown: "border-slate-200 text-slate-500 dark:border-slate-700 dark:text-slate-400",
 };
 
 /** 鮮度バッジの色分け。staleは警告として強調する。 */

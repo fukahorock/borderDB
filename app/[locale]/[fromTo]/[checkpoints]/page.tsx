@@ -166,7 +166,7 @@ export default async function DetailPage({
         </div>
         <div className="flex items-center gap-2">
           <span
-            className={`rounded-full border px-3 py-1 text-sm font-semibold ${statusBadgeClasses(border.status)}`}
+            className={`rounded-full border-2 px-3 py-1 text-sm font-semibold ${statusBadgeClasses(border.status)}`}
           >
             {statusLabelJa(border.status)}
           </span>
@@ -174,7 +174,7 @@ export default async function DetailPage({
         </div>
       </div>
       <p
-        className={`mb-6 mt-2 inline-block w-fit rounded-full border px-3 py-1 text-sm font-medium ${freshnessBadgeClasses(fresh.level)}`}
+        className={`mb-6 mt-2 inline-block w-fit rounded-full border-2 px-3 py-1 text-sm font-medium ${freshnessBadgeClasses(fresh.level)}`}
       >
         {fresh.level === "stale" && <span aria-hidden>⚠️ </span>}
         {fresh.label}
