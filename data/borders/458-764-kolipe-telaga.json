@@ -1,0 +1,40 @@
+{
+  "id": "458-764-kolipe-telaga",
+  "countries": [
+    "MY",
+    "TH"
+  ],
+  "checkpoints": {
+    "TH": "kolipe",
+    "MY": "telaga"
+  },
+  "transport_style": {
+    "TH": "through",
+    "MY": null
+  },
+  "status": "open",
+  "status_updated": "2026-08-28",
+  "difficulty": {
+    "TH": 1,
+    "MY": null
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "TH": "リペ島からランカウイ島へのフェリー\nスタンプはサートゥンSatunになってる",
+        "MY": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "TH": "",
+        "MY": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

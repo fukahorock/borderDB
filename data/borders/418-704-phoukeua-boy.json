@@ -1,0 +1,40 @@
+{
+  "id": "418-704-phoukeua-boy",
+  "countries": [
+    "LA",
+    "VN"
+  ],
+  "checkpoints": {
+    "LA": "phoukeua",
+    "VN": "boy"
+  },
+  "transport_style": {
+    "LA": "transfer",
+    "VN": "transfer"
+  },
+  "status": "open",
+  "status_updated": "2026-08-28",
+  "difficulty": {
+    "LA": 2,
+    "VN": 2
+  },
+  "difficulty_source": "editor",
+  "i18n": {
+    "ja": {
+      "hint_from": {
+        "LA": "アッタプーからKon Tumへ行くバスあり。\nKon Tumや隣の町Pleikuからはベトナム各地へ寝台バスが就航しています。\n空港はPleikuにあります。",
+        "VN": "KonTumからアッタプーへ行くバスあり。"
+      },
+      "trivia": "ラオス・ベトナム・カンボジアの三国国境モニュメントの近く",
+      "status_note": ""
+    },
+    "en": {
+      "hint_from": {
+        "LA": "",
+        "VN": ""
+      },
+      "trivia": "",
+      "status_note": ""
+    }
+  }
+}

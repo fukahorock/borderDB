@@ -1,0 +1,17 @@
+{
+  "slug": "telaga",
+  "country": "MY",
+  "coords": [
+    6.366109,
+    99.685746
+  ],
+  "source_map_url": "https://maps.app.goo.gl/vBXU12eKpEUFWFdt7",
+  "visa_on_arrival": null,
+  "name": {
+    "local": [
+      "Telaga Harbour Marina"
+    ],
+    "ja": "テラガ港",
+    "en": "Telaga Harbour Marina"
+  }
+}
