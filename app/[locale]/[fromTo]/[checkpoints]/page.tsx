@@ -14,7 +14,8 @@ import {
 } from "@/lib/format";
 import { getAllDirections, type Direction } from "@/lib/borders";
 import type { CheckpointData } from "@/lib/checkpoints";
-import { OGP_IMAGE } from "@/lib/seo";
+import { OGP_IMAGE, SITE_URL } from "@/lib/seo";
+import { buildUpdateRequestFormUrl } from "@/lib/links";
 
 function parseFromTo(fromTo: string): { from: string; to: string } | null {
   if (fromTo.length !== 8 || fromTo.slice(2, 6) !== "-to-") return null;
@@ -109,6 +110,10 @@ export default async function DetailPage({
   const needsWarning = border.status === "closed" || border.status === "needs_verification";
   const originDetails = nameDetails(originCp);
   const destDetails = nameDetails(destCp);
+
+  const updateRequestFormUrl = buildUpdateRequestFormUrl(
+    `${SITE_URL}/${locale}/${fromTo}/${checkpoints}`,
+  );
 
   const mapPoints = [
     originCp.coords && { coords: originCp.coords, label: originCp.name.ja, color: "#059669" },
@@ -283,6 +288,18 @@ export default async function DetailPage({
       <section>
         <BorderMap points={mapPoints} />
       </section>
+
+      {/* 10. 更新情報を送るリンク */}
+      <div className="mt-6 border-t border-slate-100 pt-4 dark:border-slate-800">
+        <a
+          href={updateRequestFormUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm text-emerald-700 underline dark:text-emerald-400"
+        >
+          この国境の情報が古い・間違っている場合はこちら
+        </a>
+      </div>
     </div>
   );
 }

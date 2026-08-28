@@ -1,5 +1,6 @@
 export const SITE_NAME = "国境データベース";
 export const SITE_DESCRIPTION = "陸路と船で越える、世界の国境の歩き方";
+export const SITE_URL = "https://border.rock54.net";
 
 /**
  * フェーズ1では全ページ共通の1枚（サイトのジャンボトロン背景画像）をOGP画像として使い回す
