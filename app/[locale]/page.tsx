@@ -107,7 +107,7 @@ export default async function TopPage({ params }: PageProps<"/[locale]">) {
           href={`/${locale}/contribute`}
           className="mx-auto flex max-w-3xl items-center justify-between rounded-md bg-emerald-50 px-4 py-3 text-sm text-emerald-800 dark:bg-emerald-900/30 dark:text-emerald-300"
         >
-          <span>最新情報、募集中</span>
+          <span>載っていない国境や、直したほうがいい情報があれば教えてください</span>
           <span aria-hidden>›</span>
         </Link>
       </section>

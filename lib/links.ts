@@ -3,7 +3,7 @@ export const CONTRIBUTE_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSe7P716v4rqhFAg0_3uTNi98ShZ6ZGlmNLNlatY_nUM6ayngw/viewform?usp=dialog";
 
 /** 更新用（差し替え要望）Googleフォーム（全体仕様書5.1参照）。「更新してほしいページのURL」の質問にprefillする。 */
-const UPDATE_REQUEST_FORM_BASE_URL =
+export const UPDATE_REQUEST_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSdDuOSOKrM5alzoma5FN-9iVsE2F4PV0TJt7DwAtW3MB6k_HA/viewform";
 const UPDATE_REQUEST_FORM_URL_ENTRY_ID = "183317908";
 
@@ -13,5 +13,5 @@ export function buildUpdateRequestFormUrl(pageUrl: string): string {
     usp: "pp_url",
     [`entry.${UPDATE_REQUEST_FORM_URL_ENTRY_ID}`]: pageUrl,
   });
-  return `${UPDATE_REQUEST_FORM_BASE_URL}?${params.toString()}`;
+  return `${UPDATE_REQUEST_FORM_URL}?${params.toString()}`;
 }
