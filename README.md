@@ -2,11 +2,11 @@
 
 国境越えを趣味にしている人向けの、検索・閲覧できるデータベースサイト。陸路・船で越えられる国境の情報をまとめています。
 
-仕様は [`docs/`](../docs) を参照してください（全体仕様書・UI仕様書・データ管理ツール仕様書）。
+仕様書（全体仕様書・UI仕様書・サブページ仕様書・プライバシーポリシー仕様書・データ管理ツール仕様書）はこのリポジトリの外（`docs/`、Dropbox上のローカルフォルダ）で管理しています。
 
 ## 公開URL
 
-https://fukahorock.github.io/borderDB/
+https://border.rock54.net/
 
 `main`ブランチにpushすると、GitHub Actionsが自動でビルド・デプロイする（`.github/workflows/deploy.yml`）。
 
