@@ -5,33 +5,33 @@
     "TH"
   ],
   "checkpoints": {
-    "TH": "kolipe",
-    "MY": "telaga"
+    "MY": "telaga",
+    "TH": "kolipe"
   },
   "transport_style": {
-    "TH": "through",
-    "MY": null
+    "MY": null,
+    "TH": "through"
   },
   "status": "open",
   "status_updated": "2026-08-28",
   "difficulty": {
-    "TH": 1,
-    "MY": null
+    "MY": null,
+    "TH": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "TH": "リペ島からランカウイ島へのフェリー\nスタンプはサートゥンSatunになってる",
-        "MY": ""
+        "MY": "",
+        "TH": "リペ島からランカウイ島へのフェリースタンプはサートゥンSatunになってる"
       },
       "trivia": "",
       "status_note": ""
     },
     "en": {
       "hint_from": {
-        "TH": "",
-        "MY": ""
+        "MY": "",
+        "TH": ""
       },
       "trivia": "",
       "status_note": ""

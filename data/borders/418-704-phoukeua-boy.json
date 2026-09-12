@@ -9,11 +9,11 @@
     "VN": "boy"
   },
   "transport_style": {
-    "LA": "transfer",
-    "VN": "transfer"
+    "LA": "through",
+    "VN": "through"
   },
-  "status": "open",
-  "status_updated": "2026-08-28",
+  "status": "needs_verification",
+  "status_updated": "",
   "difficulty": {
     "LA": 2,
     "VN": 2
@@ -22,7 +22,7 @@
   "i18n": {
     "ja": {
       "hint_from": {
-        "LA": "アッタプーからKon Tumへ行くバスあり。\nKon Tumや隣の町Pleikuからはベトナム各地へ寝台バスが就航しています。\n空港はPleikuにあります。",
+        "LA": "アッタプーからKon Tumへ行くバスあり。",
         "VN": "KonTumからアッタプーへ行くバスあり。"
       },
       "trivia": "ラオス・ベトナム・カンボジアの三国国境モニュメントの近く",
