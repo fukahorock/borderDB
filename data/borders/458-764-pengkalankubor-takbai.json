@@ -9,21 +9,21 @@
     "TH": "takbai"
   },
   "transport_style": {
-    "MY": null,
-    "TH": null
+    "MY": "transfer",
+    "TH": "transfer"
   },
-  "status": "needs_verification",
-  "status_updated": "",
+  "status": "open",
+  "status_updated": "2026-09-15",
   "difficulty": {
-    "MY": null,
-    "TH": null
+    "MY": 1,
+    "TH": 2
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "MY": "",
-        "TH": "MY→TH推奨。ボートで川渡り25バーツ。深南部注意。6:00-19:00"
+        "MY": "コタバル市街地からPengkalan Kuborまでのローカルバスあり。\nD20,D21系統のどちらも終点Pengkalan Kubor。\n大体1時間くらい。\n\n渡し船は1RM/人。\nバイクや車は別料金があります。",
+        "TH": "ナラティワートバスターミナルか、スンガイコロクなどから近くまでのローカルバスあり。\n\n渡し船代25THB/人。"
       },
       "trivia": "",
       "status_note": ""

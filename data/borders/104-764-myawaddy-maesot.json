@@ -13,7 +13,7 @@
     "TH": "no_public_transport"
   },
   "status": "closed",
-  "status_updated": "",
+  "status_updated": "2026-09-15",
   "difficulty": {
     "MM": null,
     "TH": null
@@ -22,8 +22,8 @@
   "i18n": {
     "ja": {
       "hint_from": {
-        "MM": "どちらでもOK。最も実用的。友好橋で徒歩越境",
-        "TH": "どちらでもOK。最も実用的。友好橋で徒歩越境"
+        "MM": "現在外国人の越境は不可。",
+        "TH": "現在外国人の越境は不可。"
       },
       "trivia": "",
       "status_note": ""

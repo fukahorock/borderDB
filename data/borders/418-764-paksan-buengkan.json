@@ -9,23 +9,23 @@
     "TH": "buengkan"
   },
   "transport_style": {
-    "LA": null,
-    "TH": null
+    "LA": "through",
+    "TH": "through"
   },
-  "status": "needs_verification",
+  "status": "open",
   "status_updated": "",
   "difficulty": {
-    "LA": null,
-    "TH": null
+    "LA": 1,
+    "TH": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "LA": "",
-        "TH": "LA→TH。渡し船、午前中がボート捕まえやすい"
+        "LA": "パークサンバスターミナルからブンカーンバスターナルへの国際バスが1日４本。\n両検問所発着のシャトルバスもあり。",
+        "TH": "ブンカーンバスターナルからパークサンバスターミナルへの国際バスが1日４本。\n両検問所発着のシャトルバスもあり。"
       },
-      "trivia": "",
+      "trivia": "以前は渡し船で国境を超えていたが、第5友好橋完成に伴って廃止されました。",
       "status_note": ""
     },
     "en": {
