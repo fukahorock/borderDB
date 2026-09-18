@@ -281,6 +281,10 @@ export default async function DetailPage({
       {/* 7. trivia */}
       {trivia && (
         <section className="mb-8 border-t border-slate-100 pt-4 dark:border-slate-800">
+          <h2 className="mb-2 flex items-center gap-1.5 text-sm font-semibold text-slate-500 dark:text-slate-400">
+            <span aria-hidden>💡</span>
+            豆知識
+          </h2>
           <p
             className="text-sm leading-relaxed text-slate-500 dark:text-slate-400"
             dangerouslySetInnerHTML={{ __html: renderHint(trivia) }}
