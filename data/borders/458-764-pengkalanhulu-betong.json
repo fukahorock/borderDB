@@ -9,21 +9,21 @@
     "TH": "betong"
   },
   "transport_style": {
-    "MY": null,
-    "TH": null
+    "MY": "transfer",
+    "TH": "transfer"
   },
-  "status": "needs_verification",
+  "status": "open",
   "status_updated": "",
   "difficulty": {
-    "MY": null,
-    "TH": null
+    "MY": 3,
+    "TH": 3
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "MY": "",
-        "TH": "MY→TH推奨。ペナン方面からアクセス良。6:00-23:00"
+        "MY": "ペンカランフルからタクシーなどで国境まで行き、国境からベトン側までバイタクなど。安くするに国境までヒッチが安定か",
+        "TH": "バイタクなどで国境へ。国境からのバスはないので、ペンカランフルまで出て、各方面へのバスに乗り継ぎ。"
       },
       "trivia": "",
       "status_note": ""

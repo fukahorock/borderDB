@@ -9,21 +9,21 @@
     "VN": "lethanh"
   },
   "transport_style": {
-    "KH": null,
-    "VN": null
+    "KH": "through",
+    "VN": "through"
   },
-  "status": "needs_verification",
-  "status_updated": "",
+  "status": "open",
+  "status_updated": "2026/09/15",
   "difficulty": {
-    "KH": null,
-    "VN": null
+    "KH": 1,
+    "VN": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KH": "どちらでもOK",
-        "VN": "どちらでもOK。プレイクから75km"
+        "KH": "Ban LungからPleiku方面へのバスあり",
+        "VN": "プレイク中心部の交差点付近から出る国際バスあり。（AH17とDT664,QL19が交差する道路）ローカルバスターミナル（Bến xe nội tỉnh）から国境近くの街DUC COまで行くバスへ乗り、バイクタクシー等で国境まで行くルートも可能。（カンボジア側から最寄りの町までの情報提供募集中）"
       },
       "trivia": "",
       "status_note": ""

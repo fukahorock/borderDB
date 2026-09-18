@@ -13,17 +13,17 @@
     "SG": "through"
   },
   "status": "open",
-  "status_updated": "",
+  "status_updated": "2026-09-18",
   "difficulty": {
-    "MY": null,
-    "SG": null
+    "MY": 1,
+    "SG": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "MY": "どちらでもOK。世界最多往来の国境。MRTウッドランズ駅/JBセントラル直結",
-        "SG": "どちらでもOK。世界最多往来の国境。MRTウッドランズ駅/JBセントラル直結"
+        "MY": "MRTウッドランズ駅/JBセントラル直結",
+        "SG": "MRTウッドランズ駅/JBセントラル直結"
       },
       "trivia": "",
       "status_note": ""

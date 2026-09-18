@@ -13,17 +13,17 @@
     "TH": "transfer"
   },
   "status": "closed",
-  "status_updated": "",
+  "status_updated": "2026-09-18",
   "difficulty": {
-    "KH": null,
-    "TH": null
+    "KH": 2,
+    "TH": 2
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KH": "",
-        "TH": "TH→KH推奨。トラートから。eVisa対応。6:00-22:00"
+        "KH": "閉鎖中",
+        "TH": "閉鎖中"
       },
       "trivia": "",
       "status_note": ""

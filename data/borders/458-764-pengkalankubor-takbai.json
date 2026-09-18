@@ -13,7 +13,7 @@
     "TH": "transfer"
   },
   "status": "open",
-  "status_updated": "2026-09-15",
+  "status_updated": "2026/09/15",
   "difficulty": {
     "MY": 1,
     "TH": 2
@@ -22,8 +22,8 @@
   "i18n": {
     "ja": {
       "hint_from": {
-        "MY": "コタバル市街地からPengkalan Kuborまでのローカルバスあり。\nD20,D21系統のどちらも終点Pengkalan Kubor。\n大体1時間くらい。\n\n渡し船は1RM/人。\nバイクや車は別料金があります。",
-        "TH": "ナラティワートバスターミナルか、スンガイコロクなどから近くまでのローカルバスあり。\n\n渡し船代25THB/人。"
+        "MY": "コタバル市街地からPengkalan Kuborまでのローカルバスあり。D20,D21系統のどちらも終点Pengkalan Kubor。大体1時間くらい。渡し船は1RM/人。バイクや車は別料金があります。",
+        "TH": "ナラティワートバスターミナルか、スンガイコロクなどから近くまでのローカルバスあり。渡し船代25THB/人。"
       },
       "trivia": "",
       "status_note": ""
