@@ -42,13 +42,13 @@ export function CookieConsentBanner({ locale }: { locale: string }) {
   if (!visible) return null;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-30 border-t-2 border-emerald-600 bg-white px-4 py-4 shadow-[0_-6px_20px_rgba(0,0,0,0.15)] dark:border-emerald-500 dark:bg-slate-900 dark:shadow-[0_-6px_20px_rgba(0,0,0,0.5)]">
+    <div className="fixed inset-x-0 bottom-0 z-30 border-t-2 border-emerald-500 bg-slate-900 px-4 py-4 shadow-[0_-6px_20px_rgba(0,0,0,0.3)] dark:border-emerald-600 dark:bg-white dark:shadow-[0_-6px_20px_rgba(0,0,0,0.15)]">
       <div className="mx-auto flex max-w-5xl flex-col items-start gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <p className="text-sm leading-relaxed text-slate-700 dark:text-slate-200">
+        <p className="text-sm leading-relaxed text-slate-200 dark:text-slate-700">
           当サイトでは、アクセス解析のためにCookieを使用しています。詳しくは
           <Link
             href={`/${locale}/privacy`}
-            className="font-medium text-emerald-700 underline-offset-2 hover:underline dark:text-emerald-400"
+            className="font-medium text-emerald-400 underline-offset-2 hover:underline dark:text-emerald-700"
           >
             プライバシーポリシー
           </Link>
@@ -58,14 +58,14 @@ export function CookieConsentBanner({ locale }: { locale: string }) {
           <button
             type="button"
             onClick={() => saveConsent("denied")}
-            className="flex-1 rounded-md border border-slate-300 px-5 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50 sm:flex-none dark:border-slate-600 dark:text-slate-200 dark:hover:bg-slate-800"
+            className="flex-1 rounded-md border border-slate-500 px-5 py-2.5 text-sm font-medium text-slate-100 hover:bg-slate-800 sm:flex-none dark:border-slate-300 dark:text-slate-700 dark:hover:bg-slate-100"
           >
             同意しない
           </button>
           <button
             type="button"
             onClick={() => saveConsent("granted")}
-            className="flex-1 rounded-md bg-emerald-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-800 sm:flex-none dark:bg-emerald-600 dark:hover:bg-emerald-700"
+            className="flex-1 rounded-md bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 sm:flex-none dark:bg-emerald-700 dark:hover:bg-emerald-800"
           >
             同意する
           </button>
