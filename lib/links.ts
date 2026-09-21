@@ -1,3 +1,6 @@
+/** 運営者へのサポート（Amazonほしい物リスト）。このサイトについてページから使う。 */
+export const AMAZON_WISHLIST_URL = "https://www.amazon.jp/hz/wishlist/ls/2BK8YXD9QA6TH?ref_=wl_share";
+
 /** 新規追加用の情報提供Googleフォーム（全体仕様書5.1参照）。実際のフォームはここでのみ管理する。 */
 export const CONTRIBUTE_FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSe7P716v4rqhFAg0_3uTNi98ShZ6ZGlmNLNlatY_nUM6ayngw/viewform?usp=dialog";
