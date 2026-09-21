@@ -39,28 +39,28 @@ export default async function AboutPage({ params }: PageProps<"/[locale]/about">
               <p>本業はマンガ原作者、趣味は競馬と国境越え。</p>
               <p>好きな国はベトナム。苦手なのは韓国（スタンプがシール式なのだけがちょっと寂しい）。</p>
               <p>このサイト、実はフカホリがひとりで作って、ひとりで運営しています。</p>
-              <p>
-                知っている国境情報があれば
+              <div className="flex flex-col gap-2">
+                <p>知っている国境情報があれば教えてください。</p>
                 <Link
                   href={`/${locale}/contribute`}
-                  className="text-emerald-700 underline-offset-2 hover:underline dark:text-emerald-400"
+                  className="mt-1 inline-flex w-fit items-center gap-2 rounded-md bg-emerald-700 px-5 py-2.5 font-medium text-white hover:bg-emerald-800 dark:bg-emerald-600 dark:hover:bg-emerald-700"
                 >
-                  こちら
+                  国境情報を教える
+                  <span aria-hidden>→</span>
                 </Link>
-                から教えてください。
-              </p>
-              <p>
-                「応援したい！」という方は、
+              </div>
+              <div className="flex flex-col gap-2">
+                <p>「応援したい！」という方は、こちらから何か贈ってもらえると喜びます。</p>
                 <a
                   href={AMAZON_WISHLIST_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-emerald-700 underline-offset-2 hover:underline dark:text-emerald-400"
+                  className="mt-1 inline-flex w-fit items-center gap-2 rounded-md bg-emerald-700 px-5 py-2.5 font-medium text-white hover:bg-emerald-800 dark:bg-emerald-600 dark:hover:bg-emerald-700"
                 >
-                  こちら
+                  ほしい物リストを見る
+                  <span aria-hidden>↗</span>
                 </a>
-                から何か贈ってもらえると喜びます。
-              </p>
+              </div>
             </div>
           </section>
         </div>
