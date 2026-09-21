@@ -43,6 +43,9 @@ export default async function TopPage({ params }: PageProps<"/[locale]">) {
         </p>
 
         <div className="mx-auto mt-10 w-full max-w-3xl rounded-2xl bg-white p-6 shadow-xl sm:p-8 dark:bg-slate-900">
+          <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">
+            出発国と到着国を選んで検索すると、その国境の越え方（難易度・交通手段・注意点など）が調べられます
+          </p>
           <SearchForm fromToMap={fromToMap} locale={locale} size="lg" />
         </div>
       </section>
