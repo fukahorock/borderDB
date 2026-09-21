@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/app/components/PageHero";
+import { ObfuscatedEmail } from "@/app/components/ObfuscatedEmail";
 
 export const metadata: Metadata = { title: "プライバシーポリシー" };
 
@@ -78,7 +79,7 @@ export default function PrivacyPage() {
             <p className="mt-2">
               運営者：フカホリユウキ
               <br />
-              メールアドレス：（実装時に追記／スパム対策の表示方法は別途検討）
+              メールアドレス：<ObfuscatedEmail />
             </p>
           </section>
         </div>
