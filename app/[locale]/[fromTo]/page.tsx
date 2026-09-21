@@ -122,11 +122,11 @@ export default async function ResultsPage({
       </section>
 
       <section className="px-4 py-8">
-        <div className="mx-auto grid max-w-5xl gap-4 sm:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl gap-4 lg:grid-cols-3">
           {groupedCards.map((g) => (
             <div
               key={g.key}
-              className="rounded-lg border border-slate-200 p-4 sm:col-span-3 dark:border-slate-700"
+              className="rounded-lg border border-slate-200 p-4 lg:col-span-3 dark:border-slate-700"
             >
               <p className="font-medium text-slate-900 dark:text-slate-100">
                 {checkpointDisplayName(g.origin)}
