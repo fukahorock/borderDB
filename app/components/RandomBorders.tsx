@@ -35,8 +35,8 @@ export function RandomBorders({ entries }: { entries: RandomEntry[] }) {
 
   return (
     <>
-      {/* PC: ランダムな国境を3件カード表示 */}
-      <div className="hidden gap-3 sm:grid sm:grid-cols-3">
+      {/* PC: ランダムな国境を3件カード表示（タブレット幅ではモバイル用ボタンを表示、lg以上でカード表示） */}
+      <div className="hidden gap-3 lg:grid lg:grid-cols-3">
         {(picks ?? Array.from({ length: CARD_COUNT })).map((entry, i) =>
           entry ? (
             <Link
@@ -60,11 +60,11 @@ export function RandomBorders({ entries }: { entries: RandomEntry[] }) {
         )}
       </div>
 
-      {/* モバイル: ランダムな1件へ飛ぶボタン */}
+      {/* モバイル・タブレット: ランダムな1件へ飛ぶボタン */}
       <button
         type="button"
         onClick={jumpToRandom}
-        className="flex w-full items-center justify-center gap-2 rounded-md border border-slate-300 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 sm:hidden dark:border-slate-600 dark:text-slate-200 dark:hover:bg-slate-800"
+        className="flex w-full items-center justify-center gap-2 rounded-md border border-slate-300 py-3 text-sm font-medium text-slate-700 hover:bg-slate-50 lg:hidden dark:border-slate-600 dark:text-slate-200 dark:hover:bg-slate-800"
       >
         <span aria-hidden>🎲</span>
         ランダムな国境に飛ぶ

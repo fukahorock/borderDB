@@ -62,7 +62,7 @@ export default async function TopPage({ params }: PageProps<"/[locale]">) {
         <h2 className="mx-auto mb-3 max-w-5xl text-sm font-semibold text-slate-500 dark:text-slate-400">
           最近更新された国境
         </h2>
-        <div className="mx-auto grid max-w-5xl gap-3 sm:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl gap-3 lg:grid-cols-3">
           {recentBorders.map((border) => {
             const [a, b] = border.countries;
             const fresh = freshness(border.status_updated);
