@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { Header } from "@/app/components/Header";
 import { Footer } from "@/app/components/Footer";
+import { CookieConsentBanner } from "@/app/components/CookieConsentBanner";
 import { getFromToMap } from "@/lib/borders";
 
 // フェーズ1は日本語のみ表示（全体仕様書4.4）。/en/ はフェーズ2で有効化する。
@@ -30,6 +31,7 @@ export default async function LocaleLayout({
       <Header locale={locale} originCountries={originCountries} />
       <main className="flex flex-1 flex-col">{children}</main>
       <Footer locale={locale} />
+      <CookieConsentBanner locale={locale} />
     </div>
   );
 }
