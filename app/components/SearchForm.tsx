@@ -34,6 +34,11 @@ export function SearchForm({
     setTo("");
   }
 
+  function handleSwap() {
+    setFrom(to);
+    setTo(from);
+  }
+
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!from) return;
@@ -77,6 +82,21 @@ export function SearchForm({
           ))}
         </select>
       </label>
+
+      <button
+        type="button"
+        onClick={handleSwap}
+        disabled={!from || !to}
+        aria-label="出発国と到着国を入れ替え"
+        title="出発国と到着国を入れ替え"
+        className={`flex shrink-0 items-center justify-center self-center rounded-full border border-slate-300 text-slate-500 hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40 dark:border-slate-600 dark:text-slate-400 dark:hover:bg-slate-800 ${
+          isLg ? "h-11 w-11 text-lg" : "h-9 w-9"
+        }`}
+      >
+        <span aria-hidden className="inline-block rotate-90 sm:rotate-0">
+          ⇄
+        </span>
+      </button>
 
       <label className={labelClass}>
         到着国
