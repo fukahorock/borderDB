@@ -130,24 +130,30 @@ export default async function ResultsPage({
             >
               <p className="font-medium text-slate-900 dark:text-slate-100">
                 {checkpointDisplayName(g.origin)}
-                <span className="mx-2 text-slate-400 dark:text-slate-500">⇔</span>
-                {g.destinations.map((d, i) => (
-                  <span key={d.checkpoint.slug}>
-                    {i > 0 && <span className="text-slate-400 dark:text-slate-500">、</span>}
+                <span className="ml-2 text-xs font-normal text-slate-400 dark:text-slate-500">
+                  {g.destinations.length}件の行き先
+                </span>
+              </p>
+              <ul className="mt-2 grid gap-1.5 sm:grid-cols-2">
+                {g.destinations.map((d) => (
+                  <li key={d.checkpoint.slug}>
                     <Link
                       href={`/${locale}/${from.toLowerCase()}-to-${d.toCountry.toLowerCase()}/${g.origin.slug}-${d.checkpoint.slug}`}
-                      className="text-emerald-700 underline-offset-2 hover:underline dark:text-emerald-400"
+                      className="flex items-center gap-1.5 rounded-md px-2 py-1.5 text-sm text-emerald-700 hover:bg-emerald-50 dark:text-emerald-400 dark:hover:bg-emerald-900/20"
                     >
-                      {checkpointDisplayName(d.checkpoint)}
-                    </Link>
-                    {!to && (
-                      <span className="ml-1 text-xs text-slate-400 dark:text-slate-500">
-                        （{countryLabel(d.toCountry)}）
+                      <span aria-hidden className="text-slate-400 dark:text-slate-500">
+                        ⇔
                       </span>
-                    )}
-                  </span>
+                      {checkpointDisplayName(d.checkpoint)}
+                      {!to && (
+                        <span className="text-xs text-slate-400 dark:text-slate-500">
+                          （{countryLabel(d.toCountry)}）
+                        </span>
+                      )}
+                    </Link>
+                  </li>
                 ))}
-              </p>
+              </ul>
             </div>
           ))}
 
