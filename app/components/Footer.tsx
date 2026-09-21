@@ -2,9 +2,8 @@ import Link from "next/link";
 
 export function Footer({ locale }: { locale: string }) {
   return (
-    <footer className="mt-auto border-t border-slate-100 px-4 py-8 text-sm text-slate-500 dark:border-slate-800 dark:text-slate-400">
+    <footer className="mt-auto border-t border-slate-200 bg-slate-50 px-4 py-8 text-sm text-slate-500 dark:border-slate-800 dark:bg-slate-800 dark:text-slate-400">
       <div className="mx-auto flex max-w-5xl flex-col gap-2">
-        <p className="font-medium text-slate-700 dark:text-slate-200">国境データベース</p>
         <nav className="flex flex-wrap gap-4">
           <Link href={`/${locale}/about`}>このサイトについて</Link>
           <Link href={`/${locale}/privacy`}>プライバシーポリシー</Link>
