@@ -5,25 +5,25 @@
     "VN"
   ],
   "checkpoints": {
-    "KH": "vinhxuong",
-    "VN": "kaamsamnor"
+    "KH": "kaamsamnor",
+    "VN": "vinhxuong"
   },
   "transport_style": {
     "KH": "through",
     "VN": "through"
   },
-  "status": "needs_verification",
-  "status_updated": "",
+  "status": "open",
+  "status_updated": "2026-10-20",
   "difficulty": {
-    "KH": null,
-    "VN": null
+    "KH": 1,
+    "VN": 1
   },
   "difficulty_source": "editor",
   "i18n": {
     "ja": {
       "hint_from": {
-        "KH": "どちらでもOK。チャウドック-プノンペンのボートルート",
-        "VN": "どちらでもOK。チャウドック-プノンペンのボートルート"
+        "KH": "チャウドック⇔プノンペンを結ぶスピードボートやスローボートで、一旦上陸してスタンプを貰い、出入国。その後同じボートに乗るor乗り継ぎで別のボート。陸路でも移動可能だが難易度は段違い。公共交通がないので、バイクや自転車などがないと難しい。",
+        "VN": "チャウドック⇔プノンペンを結ぶスピードボートやスローボートで、一旦上陸してスタンプを貰い、出入国。その後同じボートに乗るor乗り継ぎで別のボート。陸路でも移動可能だが難易度は段違い。公共交通がないので、バイクや自転車などがないと難しい。"
       },
       "trivia": "",
       "status_note": ""

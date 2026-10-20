@@ -1,8 +1,11 @@
 {
   "slug": "pingxiangrail",
   "country": "CN",
-  "coords": null,
-  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Pingxiang%20%28rail%29%20China%20border%20checkpoint",
+  "coords": [
+    22.082911,
+    106.739146
+  ],
+  "source_map_url": "https://maps.app.goo.gl/MH3DoZYXMtAp238n7",
   "visa_on_arrival": null,
   "name": {
     "local": [

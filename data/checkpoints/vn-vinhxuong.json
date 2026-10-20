@@ -1,8 +1,11 @@
 {
-  "slug": "kaamsamnor",
+  "slug": "vinhxuong",
   "country": "VN",
-  "coords": null,
-  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Vinh%20Xuong%20Vietnam%20border%20checkpoint",
+  "coords": [
+    10.911317273927066,
+    105.17892655653395
+  ],
+  "source_map_url": "https://maps.app.goo.gl/cs9cXiLLeN3dw4Lq9",
   "visa_on_arrival": null,
   "name": {
     "local": [

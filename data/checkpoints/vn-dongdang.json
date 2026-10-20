@@ -1,8 +1,11 @@
 {
   "slug": "dongdang",
   "country": "VN",
-  "coords": null,
-  "source_map_url": "https://www.google.com/maps/search/?api=1&query=Dong%20Dang%20%28rail%29%20Vietnam%20border%20checkpoint",
+  "coords": [
+    21.944244789456757,
+    106.69710568418908
+  ],
+  "source_map_url": "https://maps.app.goo.gl/RRvNXnCWG5ytwkf78",
   "visa_on_arrival": null,
   "name": {
     "local": [
